@@ -1,0 +1,2 @@
+[2025-05-21 13:22:04] User -> DCP added ->admin@pds| Requested JSON -> {"name":"test","type":"SWC","latitude":"9.344","longitude":"56.44","district":"Araria","id":"1233qwe","demand":"123","demand_rice":"233"}
+[2025-05-21 13:22:16] User -> DCP deleted -> admin@pds| Requested JSON -> {"uid":"DCP_682d8624162"} | test

@@ -1,0 +1,4 @@
+[2025-09-01 15:55:51] User -> District added ->admin@pds| Requested JSON -> {"name":"East Champaran"}
+[2025-09-01 15:56:23] User -> District added ->admin@pds| Requested JSON -> {"name":"West Champaran"}
+[2025-09-01 15:57:18] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"East_Champaran@pds","district":"East Champaran","newpassword":"East Champaran"} | East_Champaran@pds
+[2025-09-01 15:58:44] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"West_Champaran@pds","district":"West Champaran","newpassword":"West Champaran"} | West_Champaran@pds

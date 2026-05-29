@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="body-full-height">
+    <head>        
+        <!-- META SECTION -->
+        <title>PDS Main</title>            
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+		<meta name="theme-color" content="#ffffff">
+        <!-- END META SECTION -->
+        
+        <!-- CSS INCLUDE -->        
+        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css"/>
+        <!-- EOF CSS INCLUDE -->      
+		<style>
+		#image{
+			box-shadow: "black";
+			width: 80px;
+			font-weight: 600;
+			height: 60px;
+			color:#FFF;
+			user-select: none;
+			text-decoration:line-through;
+			font-style: italic;
+			font-size: x-large;
+			border: #2798D5 2px solid;
+			padding: 10px;
+			margin-left: 119px;
+		}
+		.login-container {
+     
+        background-image: url('img/Bihar3.png');
+        background-image: url('img/Bihar2.png');
+        background-image: url('img/Punjab-login-backdrop.png');
+		
+
+        
+        background-size: cover;
+       
+    }
+	.login-container {
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 10s infinite;
+}
+
+@keyframes slideshow {
+    0%, 100% { background-image: url('img/Bihar3.png'); }
+    50% { background-image: url('img/Bihar2.png'); }
+}
+
+.login-body {
+    background: #000;
+}
+
+		</style>
+    </head>
+    <body>
+	
+        
+        <div class="login-container" >
+        
+            <div class="login-box animated fadeInDown">
+			</br></br></br></br></br>
+                <div class="login-body" style="background-color: #060505;" autocomplete="off">
+                    <center><div class="login-title"><strong>Welcome</strong>, Please Select Role</div></center>
+                    <div class="form-group">
+					<center>
+                            <a href="AdminLogin.html"><button class="btn btn-info btn-block" style="width:50%">Log in as State Admin</button></a>
+					</center>
+                    </div>
+					<div class="form-group">
+					<center>
+                            <a href="../pds_district_bihar/Login.html"><button class="btn btn-info btn-block" style="width:50%">Log in as District</button></a>
+					</center>
+                    </div>
+					<div class="form-group">
+					<center>
+                            <a href="../pds_dfpd_bihar/Login.html"><button class="btn btn-info btn-block" style="width:50%">Log in as DFPD</button></a>
+					</center>
+                    </div>
+                    <div class="form-group">
+					<center>
+                            <a href="../Pds_fci_bihar/Login.html"><button class="btn btn-info btn-block" style="width:50%">Log in as FCI</button></a>
+					</center>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		<script>
+			generateCaptcha();
+		</script>
+    </body>
+</html>
+
+
+
+
+
+

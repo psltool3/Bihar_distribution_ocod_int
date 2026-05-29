@@ -1,0 +1,8 @@
+[2025-09-01 08:17:22] User -> DCP InActive -> Vaishali@pds| Godown No 11 Dabhich Panchayat Pacs  Vaishali
+[2025-09-01 08:17:48] User -> DCP InActive -> Vaishali@pds| Godown No 12 Langurav Bilandpur Panchayat Pacs
+[2025-09-01 15:34:43] User -> Warehouse InActive -> Araria@pds| 
+[2025-09-01 15:34:52] User -> Warehouse Active -> Araria@pds| 
+[2025-09-01 15:38:31] district_user -> Warehouse Edit ->Saran@pds| Requested JSON -> {"name":"BSWC CHAPRA","uniqueid":"WH_66d5b4bdbb6c","active":"1","type":"motorable","latitude":"25.795177","storage":"125280","district":"Saran","id":"219970","warehousetype":"swc","longitude":"84.748689"}
+[2025-09-01 15:39:13] district_user -> Warehouse Edit ->Saran@pds| Requested JSON -> {"name":"BSWC CHAPRA","uniqueid":"WH_66d5b4bdbb6c","active":"1","type":"motorable","latitude":"25.795177","storage":"125280","district":"Saran","id":"219970","warehousetype":"swc","longitude":"84.748689"}
+[2025-09-01 15:40:10] User -> DCP InActive -> Saran@pds| Godown No 02  Nigam Godown  Bajar Samiti Parisar  Chhapra
+[2025-09-01 15:40:29] User -> DCP InActive -> Saran@pds| Godown No  08 (TPDS Godown) Kerwa Prakhand Ishuwapur

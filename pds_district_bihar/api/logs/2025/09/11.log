@@ -1,0 +1,5 @@
+[2025-09-11 10:04:38] User -> Warehouse InActive -> Rohtas@pds| 
+[2025-09-11 10:04:48] User -> Warehouse Active -> Rohtas@pds| 
+[2025-09-11 10:06:20] district_user -> Warehouse Edit ->Rohtas@pds| Requested JSON -> {"name":"BSWC SASARAM","uniqueid":"WH_66d5b4bdb75a","active":"1","type":"motorable","latitude":"25.232609","storage":"200000","district":"Rohtas","id":"234962","warehousetype":"swc","longitude":"84.151715"}
+[2025-09-11 10:12:03] district_user -> Warehouse Edit ->Rohtas@pds| Requested JSON -> {"name":"BSWC NATWAR","uniqueid":"WH_66d5b4bdb7f8","active":"1","type":"motorable","latitude":"24.957094","storage":"50000","district":"Rohtas","id":"234963","warehousetype":"swc","longitude":"84.009064"}
+[2025-09-11 10:12:33] district_user -> Warehouse Edit ->Rohtas@pds| Requested JSON -> {"name":"Bswc Sasaram","uniqueid":"WH_66d5b4bdb75a","active":"1","type":"motorable","latitude":"25.232609","storage":"200000","district":"Rohtas","id":"234962","warehousetype":"swc","longitude":"84.151715"}

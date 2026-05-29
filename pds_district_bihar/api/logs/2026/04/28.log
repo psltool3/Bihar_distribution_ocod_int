@@ -1,0 +1,38 @@
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| TPDS BAHADURGANJ
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| TPDS DIGHALBANK
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| TPDS KISHANGANJ
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| TPDS KOCHADHAMAN
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| TPDS POTHIA
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| TPDS THAKURGANJ
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| TPDS TERHAGACHH
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| CWC KISHANGANJ
+[2026-04-28 11:12:00] User -> Warehouse Edit -> Kishanganj@pds| P E G KISHANGANJ
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| TPDS BAHADURGANJ
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| TPDS DIGHALBANK
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| TPDS KISHANGANJ
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| TPDS KOCHADHAMAN
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| TPDS POTHIA
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| TPDS THAKURGANJ
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| TPDS TERHAGACHH
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| CWC KISHANGANJ
+[2026-04-28 11:14:59] User -> Warehouse Edit -> Kishanganj@pds| P E G KISHANGANJ
+[2026-04-28 13:47:15] district_user -> DCP Edit ->Khagaria@pds| Requested JSON -> {"name":"Godown No-04 Nav Nirmit Nigam Godown Sadar Prakhandkhagaria","uniqueid":"DCP_69145b93505","active":"1","type":"DCP","latitude":"25.509548","longitude":"86.491317","district":"Khagaria","id":"467","demand":"21810.00","demand_rice":"0.00"}
+[2026-04-28 13:48:03] district_user -> DCP Edit ->Khagaria@pds| Requested JSON -> {"name":"Godown No- 01 Nigam Godown  Bazar Samiti Khagaria","uniqueid":"DCP_69145b9354a","active":"1","type":"DCP","latitude":"25.51843","longitude":"86.47459","district":"Khagaria","id":"251","demand":"68380.00","demand_rice":"0.00"}
+[2026-04-28 13:54:57] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"TPDS GOGRI","uniqueid":"WH_69145dda30f5","active":"1","type":"motorable","latitude":"25.41505","storage":"11000","district":"Khagaria","id":"2230251","warehousetype":"swc","longitude":"86.64458"}
+[2026-04-28 13:55:21] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"TPDS ALAULI","uniqueid":"WH_69145dda31e2","active":"1","type":"motorable","latitude":"25.640783","storage":"11000","district":"Khagaria","id":"2230331","warehousetype":"swc","longitude":"86.399713"}
+[2026-04-28 13:55:57] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"TPDS CHAUTHAM","uniqueid":"WH_69145dda32d9","active":"1","type":"motorable","latitude":"25.540537","storage":"11000","district":"Khagaria","id":"2230250","warehousetype":"swc","longitude":"86.656789"}
+[2026-04-28 13:56:26] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"TPDS BELDAUR","uniqueid":"WH_69145dda33f2","active":"1","type":"motorable","latitude":"25.60108","storage":"5500","district":"Khagaria","id":"2230249","warehousetype":"swc","longitude":"86.78958"}
+[2026-04-28 13:57:05] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"TPDS KHAGARIA","uniqueid":"WH_69145dda3515","active":"1","type":"motorable","latitude":"25.51642","storage":"44000","district":"Khagaria","id":"2230252","warehousetype":"swc","longitude":"86.47563"}
+[2026-04-28 13:57:35] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"TPDS PARBATTA","uniqueid":"WH_69145dda3705","active":"1","type":"motorable","latitude":"25.31545","storage":"11000","district":"Khagaria","id":"2230253","warehousetype":"swc","longitude":"86.7223"}
+[2026-04-28 14:00:00] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"CWC KHAGARIA","uniqueid":"WH_69145dda5a41","active":"1","type":"motorable","latitude":"25.51612","storage":"110000","district":"Khagaria","id":"22304152","warehousetype":"swc","longitude":"86.47532"}
+[2026-04-28 14:01:28] district_user -> Warehouse Edit ->Khagaria@pds| Requested JSON -> {"name":"Peg Bswc Labhgoa Khagaria","uniqueid":"WH_69145dda5c08","active":"1","type":"motorable","latitude":"25.510128","storage":"92422","district":"Khagaria","id":"22304715","warehousetype":"swc","longitude":"86.402946"}
+[2026-04-28 14:09:17] district_user -> DCP added ->Samastipur@pds| Requested JSON -> {"name":"DCP","latitude":"25.8274520","longitude":"85.8442690","district":"Samastipur","id":"3106","demand":"0.00","demand_rice":"0.00"}
+[2026-04-28 14:09:44] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Rail head Desuwa Smastipur","uniqueid":"DCP_69f07235591","active":"1","type":"DCP","latitude":"25.8274520","longitude":"85.8442690","district":"Samastipur","id":"3106","demand":"0.00","demand_rice":"0.00"}
+[2026-04-28 14:10:55] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Godown No 3 Nigam Godown Dalsinghsarai Bazar Samiti","uniqueid":"DCP_69145b93794","active":"1","type":"DCP","latitude":"25.67256","longitude":"85.82439","district":"Samastipur","id":"194","demand":"13960","demand_rice":"0.0"}
+[2026-04-28 14:11:06] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Godown No 3 Nigam Godown Dalsinghsarai Bazar Samiti","uniqueid":"DCP_69145b93794","active":"1","type":"DCP","latitude":"25.67256","longitude":"85.82439","district":"Samastipur","id":"194","demand":"13960","demand_rice":"0.0"}
+[2026-04-28 14:11:42] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Godown No 4 Nigam Godown Dalsinghsarai Bazar Samiti","uniqueid":"DCP_69145b937a5","active":"1","type":"DCP","latitude":"25.67256","longitude":"85.82439","district":"Samastipur","id":"195","demand":"47418.68","demand_rice":"00"}
+[2026-04-28 14:11:58] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Godown No  5 Nigam Godown Dalsinghsarai Bazar Samiti","uniqueid":"DCP_69145b937b1","active":"1","type":"DCP","latitude":"25.67256","longitude":"85.82439","district":"Samastipur","id":"196","demand":"38560","demand_rice":"00"}
+[2026-04-28 14:12:27] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Godown No 1 Nigam Godown  Bazar Samiti  Samastipur","uniqueid":"DCP_69145b937be","active":"1","type":"DCP","latitude":"25.87505","longitude":"85.79266","district":"Samastipur","id":"192","demand":"51320","demand_rice":"00"}
+[2026-04-28 14:12:48] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Godown No 2 Nigam Godown  Bazar Samiti  Samastipur","uniqueid":"DCP_69145b937cc","active":"1","type":"DCP","latitude":"25.87505","longitude":"85.79266","district":"Samastipur","id":"193","demand":"19568.89","demand_rice":"0.0"}
+[2026-04-28 14:13:07] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Godown No 6 Nigam Godown Dalsinghsarai Bazar Samiti","uniqueid":"DCP_69ef21c463c","active":"1","type":"DCP","latitude":"25.67256","longitude":"85.82439","district":"Samastipur","id":"197","demand":"6960","demand_rice":"0.00"}
+[2026-04-28 14:17:01] district_user -> DCP Edit ->Samastipur@pds| Requested JSON -> {"name":"Rail Head Desuwa Smastipur","uniqueid":"DCP_69f07235591","active":"1","type":"DCP","latitude":"25.8274520","longitude":"85.8442690","district":"Samastipur","id":"3106","demand":"163788.68","demand_rice":"0.00"}

@@ -1,0 +1,3 @@
+[2026-02-23 12:37:37] User -> DCP Edit ->admin@pds| Requested JSON -> {"name":"Godown No  01 Swc Godown  Bazar Samiti Parisar Biharsharif","uniqueid":"DCP_69145b93948","active":"1","type":"DCP","latitude":"25.197405","longitude":"85.505908","district":"Nalanda","id":"15","demand":"3107.70","demand_rice":"0.00"}
+[2026-02-23 15:19:10] User -> Delete User ->DFPD_User| Requested JSON -> {"uid":"68b5755c7a36e"} | West_Champaran@pds
+[2026-02-23 15:19:15] User -> Delete User ->DFPD_User| Requested JSON -> {"uid":"68b57506ac1d7"} | East_Champaran@pds

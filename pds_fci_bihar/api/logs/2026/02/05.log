@@ -1,0 +1,95 @@
+[2026-02-05 14:16:46] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"all"} | all
+[2026-02-05 14:24:20] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"1001","demand":"70","demand_rice":"100"}
+[2026-02-05 14:30:20] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"all"} | all
+[2026-02-05 14:34:24] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"br@fci","demand":"70","demand_rice":"100"}
+[2026-02-05 14:34:42] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"all"} | all
+[2026-02-05 14:34:42] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"all"} | all
+[2026-02-05 14:34:48] User -> DCP Added -> br@fci| VK
+[2026-02-05 14:41:28] User -> DCP Edit ->br@fci| Requested JSON -> {"name":"VK07","uniqueid":"DCP_69845d30746","active":"1","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"br@fci","demand":"70","demand_rice":"100"}
+[2026-02-05 14:45:18] User -> DCP Edit ->br@fci| Requested JSON -> {"name":"Vk07","uniqueid":"DCP_69845d30746","active":"1","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"1001","demand":"70","demand_rice":"100"}
+[2026-02-05 14:47:50] User -> DCP Edit -> br@fci| Vk07
+[2026-02-05 14:49:20] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"all"} | all
+[2026-02-05 14:49:28] User -> DCP Added -> br@fci| Vk07
+[2026-02-05 14:50:17] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:50:18] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:50:30] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:50:31] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:50:32] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:50:51] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:50:52] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:50:53] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:50:54] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:51:07] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:51:08] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:51:09] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:51:10] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:51:32] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:51:33] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:51:33] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:51:34] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:51:40] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:51:48] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:51:49] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:51:49] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:52:03] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:52:04] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:52:05] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:52:06] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:53:19] User -> DCP Edit ->br@fci| Requested JSON -> {"name":"Vk0711","uniqueid":"DCP_698460a0af1","active":"1","type":"fast ","latitude":"19","longitude":"78","district":"Araria","id":"1001","demand":"70","demand_rice":"100"}
+[2026-02-05 14:53:23] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"DCP_698460a0af1"} | Vk0711
+[2026-02-05 14:53:32] User -> DCP Added -> br@fci| Vk07
+[2026-02-05 14:53:46] User -> DCP InActive -> br@fci| Araria
+[2026-02-05 14:54:42] User -> DCP InActive -> br@fci| Araria
+[2026-02-05 14:54:44] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:55:41] User -> DCP InActive -> br@fci| Vk07
+[2026-02-05 14:55:42] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 14:57:27] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"111111","demand":"70","demand_rice":"100"}
+[2026-02-05 14:59:12] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK45566","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"56777","demand":"70","demand_rice":"100"}
+[2026-02-05 14:59:22] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"all"} | all
+[2026-02-05 14:59:28] User -> DCP Added -> br@fci| Vk07
+[2026-02-05 14:59:28] User -> DCP Added -> br@fci| VK
+[2026-02-05 14:59:28] User -> DCP Added -> br@fci| VK45566
+[2026-02-05 14:59:37] User -> DCP Edit -> br@fci| Vk07
+[2026-02-05 14:59:37] User -> DCP Edit -> br@fci| VK
+[2026-02-05 14:59:37] User -> DCP Edit -> br@fci| VK45566
+[2026-02-05 15:00:54] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK45566","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"67656","demand":"19999","demand_rice":"1"}
+[2026-02-05 15:09:04] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK45566","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"br@fci","demand":"123","demand_rice":"456"}
+[2026-02-05 15:11:04] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK45566","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"67767","demand":"400","demand_rice":"1001"}
+[2026-02-05 15:17:04] User -> DCP added ->br@fci| Requested JSON -> {"name":"VK45566","type":"west","latitude":"19","longitude":"78","district":"Araria","id":"565656","demand":"4","demand_rice":"1001"}
+[2026-02-05 15:17:29] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"all"} | all
+[2026-02-05 15:17:39] User -> DCP Added -> br@fci| Vk07
+[2026-02-05 15:17:39] User -> DCP Added -> br@fci| VK
+[2026-02-05 15:17:39] User -> DCP Added -> br@fci| VK45566
+[2026-02-05 15:17:39] User -> DCP Added -> br@fci| VK45566
+[2026-02-05 15:17:39] User -> DCP Added -> br@fci| VK45566
+[2026-02-05 15:17:39] User -> DCP Added -> br@fci| VK45566
+[2026-02-05 15:17:39] User -> DCP Added -> br@fci| VK45566
+[2026-02-05 15:17:54] User -> DCP InActive -> br@fci| Araria
+[2026-02-05 15:18:18] User -> DCP Active -> br@fci| Vk07
+[2026-02-05 15:18:27] User -> DCP Edit ->br@fci| Requested JSON -> {"name":"Vk0766","uniqueid":"DCP_6984673b896","active":"1","type":"fast ","latitude":"19","longitude":"78","district":"Araria","id":"1001","demand":"70","demand_rice":"100"}
+[2026-02-05 15:18:30] User -> DCP InActive -> br@fci| Vk0766
+[2026-02-05 15:18:34] User -> DCP deleted -> br@fci| Requested JSON -> {"uid":"DCP_6984673b896"} | Vk0766
+[2026-02-05 15:24:47] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:24:49] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:24:51] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:24:52] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:24:54] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:24:55] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:24:56] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:24:59] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:25:00] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:25:18] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:25:19] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:25:21] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:25:37] User -> DCP Active -> br@fci| VK
+[2026-02-05 15:25:38] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:25:39] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:25:41] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:25:43] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:25:43] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:28:38] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:28:40] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:30:24] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:30:27] User -> DCP Active -> br@fci| VK45566
+[2026-02-05 15:30:29] User -> DCP InActive -> br@fci| VK45566
+[2026-02-05 15:30:30] User -> DCP Active -> br@fci| VK45566

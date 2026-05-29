@@ -1,0 +1,4 @@
+[2025-09-02 13:27:57] User -> DCP InActive -> admin@pds| Godown No   6  Nigam Godown  Bazar Samiti Parisar  Araria
+[2025-09-02 13:28:03] User -> DCP Active -> admin@pds| Godown No   6  Nigam Godown  Bazar Samiti Parisar  Araria
+[2025-09-02 13:37:03] User -> Warehouse InActive -> admin@pds| TPDS Araria 01
+[2025-09-02 14:44:23] User -> DCP Edit ->admin@pds| Requested JSON -> {"name":"Godown No 17 Vyaparmandal Godown Murliganja","uniqueid":"DCP_66d763ff223","active":"1","type":"DCP","latitude":"25.900343","longitude":"86.986107","district":"Madhepura","id":"2131312","demand":"3594.17","demand_rice":"00"}

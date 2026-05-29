@@ -1,0 +1,15 @@
+[2025-08-29 12:44:00] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"B.S.W.C. Garhbanaili","uniqueid":"WH_66d5b4bdb550","active":"1","type":"motorable","latitude":"25.907808","storage":"65000","district":"Purnia","id":"211958","warehousetype":"swc","longitude":"87.540188"}
+[2025-08-29 12:44:33] User -> Warehouse InActive -> Purnia@pds| 
+[2025-08-29 12:44:38] User -> Warehouse Active -> Purnia@pds| 
+[2025-08-29 12:45:02] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"B.S.W.C. Gulabbagh","uniqueid":"WH_66d5b4bdb5d1","active":"1","type":"motorable","latitude":"25.785950","storage":"100000","district":"Purnia","id":"211959","warehousetype":"swc","longitude":"87.537080"}
+[2025-08-29 12:45:58] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"F.S.D Belouri","uniqueid":"WH_66d5b4bdb646","active":"1","type":"motorable","latitude":"25.768709","storage":"100000","district":"Purnia","id":"211960","warehousetype":"fci","longitude":"87.515979"}
+[2025-08-29 12:47:19] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"P.E.G Abdullah Nagar Purnea","uniqueid":"WH_66d5b4bdb6d9","active":"1","type":"motorable","latitude":"25.770860","storage":"200000","district":"Purnia","id":"211961","warehousetype":"other","longitude":"87.539460"}
+[2025-08-29 12:47:33] User -> Warehouse InActive -> Purnia@pds| 
+[2025-08-29 13:38:29] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"TPDS Dagarua","uniqueid":"WH_66d5b62d3072","active":"1","type":"motorable","latitude":"25.8036927","storage":"600","district":"Purnia","id":"2110048","warehousetype":"swc","longitude":"87.5874508"}
+[2025-08-29 13:40:43] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"Tpds Dagarua","uniqueid":"WH_66d5b62d3072","active":"1","type":"motorable","latitude":"25.8036927","storage":"600","district":"Purnia","id":"2110048","warehousetype":"other","longitude":"87.5874508"}
+[2025-08-29 13:42:53] User -> DCP InActive -> Rohtas@pds| Godown No  20  Nigam Godown   Block Parisar  Chenari
+[2025-08-29 13:43:12] User -> DCP Active -> Rohtas@pds| Godown No  20  Nigam Godown   Block Parisar  Chenari
+[2025-08-29 13:47:23] User -> Warehouse InActive -> Purnia@pds| 
+[2025-08-29 13:47:25] User -> Warehouse Active -> Purnia@pds| 
+[2025-08-29 13:50:01] User -> DCP InActive -> Purnia@pds| Godown No  02 Nigam Godown     Banmankhi Bazar Samiti
+[2025-08-29 13:54:38] district_user -> DCP Edit ->Purnia@pds| Requested JSON -> {"name":"Godown No  03  Nigam Godown   Jalalgardh","uniqueid":"DCP_66d763ff510","active":"1","type":"DCP","latitude":"25.979011","longitude":"87.529174","district":"Purnia","id":"2111409","demand":"18358.2","demand_rice":"51.00"}

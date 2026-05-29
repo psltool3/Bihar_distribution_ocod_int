@@ -1,0 +1,2 @@
+scenario,from,from_state,from_id,from_name,from_district,from_lat,from_long,to,to_state,to_id,to_name,to_district,to_lat,to_long,commodity,quantity,distance,new_id_district,reason_district,new_distance_district,approve_district,approve_admin,reason_admin,new_id_admin,new_distance_admin
+Optimized,Depot,Punjab,302032,Rahul,Amritsar,31.634,77.6409781,FPS,Punjab,k56,Anmol,Amritsar,72.0,100.0,Wheat,40,-1.0,,,,,,,,

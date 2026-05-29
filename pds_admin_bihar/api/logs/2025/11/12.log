@@ -1,0 +1,926 @@
+[2025-11-12 15:31:53] User -> DCP deleted -> admin@pds| Requested JSON -> {"uid":"all"} | all
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 5 , Bazar Samiti ,Kishanganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-06,Nigam Godown ,Bazar Samiti ,Kishanganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown ,Bazar Samiti, Kishanganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 Nigam Godown ,Bazar Samiti, Kishanganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 4, Bazar Samiti ,Kishanganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:08,Daula Pacs Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown,Bazar Samiti,Parisar, Tingachia
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-05, Bazar Samiti, Tingachiya, Katihar-C, Katihar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown , Bazar Samiti, Kasba,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04,Nigam Godown,Bazar Samiti,Kasba
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown , Jalalgardh
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-11,Bazar Samiti Araria
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| GODOWN NO. -6, NIGAM GODOWN, BAZAR SAMITI PARISAR, ARARIA
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown ,Bazar Samiti, Araria,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.10,Nigam Godown TPDS
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04 Nigam Godown , Pirpanti Block Parisar,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05 Nigam Godown ,Bazar Samiti, Forbisganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 Nigam Godown ,Bazar Samiti, Forbisganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-09,BSWC ,Bazar Samiti (16C)Farbisganj,Araria
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 Nigam Godown ,Bazar Samiti, Forbisganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04Nigam Godown ,Bazar Samiti, Forbisganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-14, Nigam Godown, Prakhand Parisar Forbisganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No -05 Nigam Godown Bazar Samati,Banmankhi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-24,Daliya Pacs Godown ,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Pandey Godown Baansi, Gurudhaam
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 5, Nigam Godown , Basantpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown , Block Parisar, Birpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-11,Vypar Mandal Godown,Basantpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown , Bazar Samiti Parisar, Murliganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-08,Bazar Samiti Parisar,Murliganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-13,CMR Godown Bazar Samiti Parisar,Murliganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-33,Merama Bangoan Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.07,Prakhand Parishar Muraliganj Nigam Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 17,Vyaparmandal Godown Murliganja
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-19,Bazar Samiti Godown,Bihariganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-18,Bazar Samiti Godown,Bihariganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown , Bagbari, Bazar Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04 Nigam Godown , Bazar Samiti, Bihariganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-30,Rajoun Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-10 Nigam Godown Bagbari Bazar Samiti Bhagalpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 Nigam Godown , Bagbari, Bazar Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 Nigam Godown , Bagbari, Bazar Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown , Jadiya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 7,Pacs Godown,Piluaha,Prakhand-Triveniganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 ,Raghvendra Singh Ka Godown, Aliganj Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-16,Pacs Godown,Gonha
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-26,Bishanpur Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 9, Alamnagar Madhepura
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 , Nigam Godown, Nawagarh , Pokhar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 14, Nigam Godown,Gwalpada Prakhand Parishar,Gwalpada
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-22,Niji Godown,Prof.Shri Sanjiv Kumar,Triveniganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-18,131 PEB Godown ,Laxmipur,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-29,Kakwara Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-14,Pacs Godown Vyaparmandal,Pipra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 8, Nigam Godown ,Pipra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-09 Manpur,Pacs Godown,Sinheshwar,Madhepura
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-20,Pacs Godown ,Balam Gadhiya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 Nigam Godown , Block Parisar, GHANMARIYA
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown, Ktoriya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-06 Ghailad Prakhand parishar Nigam Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-27,Parmandpur Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No 21-Vyaparmandal,Kishanpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-19,Hardi Paschim Pacs Godown,Supaul
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-15,Prathmik Krishi Sakh Samiti,Ranga
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.9, Nigam Godown Chandan
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-14,Prathmik Krishi Sakh Samiti,Rajpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-28,Pekri Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-25,Kushumjori Jori Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-20,Prathmik Krishi Sakh Samiti,Srinagar,Belhar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown Pacs Godown, Vijalpur, Sattarkatia
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-15,Vyparmandal Godown ,Satar Kteya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown , Atithi Grah Supaul Ke Bagl Me,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.10, Nigam Godown Belhar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-13,Prathmik Krishi Sakh Samiti,Belhar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-17,Prathmik Krishi Sakh Samiti,Chandwari
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown, Kahra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-31,Basmatta Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown ,Block Parisar Nirmali
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown ,Sai Godown -01 &2 Patori Satarkatiya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown, Rajeshwari Godown, Rahuamani, Kahra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 9,Shukhpur Solhani Pacs Godown,Supaul
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-32,Teliyakumri Pacs Godown,Banka
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-18,Bakour Pacs Godown,Supaul
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-10, MS UMA AGRO BHANDAR, BANGAOWN, SAHARSA
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-16,UMA AGRO BHANDAR, BANGAOWN, SAHARSA
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No 20-Bairo Pacs Godown ,Supaul
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-07 Nigam Godown Sadar Prakhand, Munger
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-04 Nav Nirmit Nigam Godown ,Sadar Prakhand,Khagaria
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown, Navhatta
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 Nigam Godown ,Bazar Samiti, Safiasarai/ Safiyabad, Munger
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 Nigam Godown ,Bazar Samiti, Safiasarai/ Safiyabad, Munger
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-04,Nigam Godown,Bazar Samiti,Safiyabad,Munger
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown , Bazar Samiti, Khagaria
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04 Nigam Godown , Block Headquarter, Ghorgadih
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06 Nigam Godown , Block Headquarter, Ghorgadih
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 Nigam Godown , Block Headquarter, Ghorgadih
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-4 Giddaur Vyapar Mandal Ka Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No 13-Gopalpur Pacs ,Khaira
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10 Nigam Godown TPDS Khaira
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown ,Khaira
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-12,Nav Nirmit Pre-fab Godown Khaira
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown , Block Parisar, Manigachi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Nigam Godown No- 01 ,Bazar Samiti Parisar,Begusarai
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-13,Khutukpaar Pacs Vansipur,Block-Chanan,Lakhisarai
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-12,Khutukpaar Pacs Vansipur,Block-Chanan,Lakhisarai
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown no:-09,Naungadh Pacs Godown,Naungadh
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown , Hawidih , Behri
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-14,Maheshleta Pacs Godown Goddih,Block-Chanan,Lakhisarai
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 08 Nigam Godown ,Bazar Samiti, Lakhisarai,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown , Bazar Samiti, Lakhisarai,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 Nigam Godown ,Bazar Samiti, Lakhisarai,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 Nigam Godown ,Bazar Samiti, Lakhisarai,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04 Nigam Godown ,Bazar Samiti, Lakhisarai,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-19,Shri Ashok Kumar Singh Ka Niji Godown,Lakhisarai
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 22,Sri Shyam Yadav Jariso Pacs Godown ,Benipur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-15 Bitholi Pacs Godown,Bahedi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown N0-11,Shri Satish Singh Ka Niji Godown,Kendi Prakhnd Halsi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-17,Mohaddinagar Pacs Godown,Lakhisarai
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-23-Prof.Shri Ghanshyam rai,Vyaparmandal Bahedi,Darbhanga
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06 Nigam Godown , Halshi Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05 Nigam Godown , Halshi Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-10,Aure Pacs Godown,Ramgarh Chok,Lakhisarai
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 Nigam Godown ,Sikandra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 Nigam Godown , Basopatti, Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-08,TPDS Godown,Harlakhi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 21,Sri Tapeshwar Thakur Ka Niji Godown Vishanpur(Mirjapur)
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06 Nigam Godown , Chewara Block
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-20,Shri Mti Kiran Devi Ka Godown ,Devipur Near Ashok Paper Mill
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 14, Bhartiye Khadh Nigam Godown Mokama
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown , Hayaghat
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10 Nigam Godown ,Sheikhpura, College More,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 08 Nigam Godown , Ariyari Block
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-07,TPDS Godown ,Madhwapur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-12 Shri Ashok Kumar ka Niji Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-11 Shri Ashok Kumar ka NIji Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown Dalsinghsarai, Bazar Samiti,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown Dalsinghsarai, Bazar Samiti,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown Dalsinghsarai, Bazar Samiti,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Nigam Godown , Bazar Samiti , Samastipur,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02Nigam Godown , Bazar Samiti , Samastipur,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Shri, Dharmchandr Prasad Ka Personal Godown, Pakribarawa
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-13 ,Biskoman Godown ,Barbigha
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown , Block Parisar, Singhwada
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown , Bazar Samiti , Barh
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 14, Nigam Godown, Barh, Patna
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 13, Nigam Godown , Bazar Samiti ,Parisar Barh,
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown, Bazar Samiti Parisar , Pupri.
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown, Bazar Samiti Parisar , Pupri.
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 19, Nigam Godown, Jangipur Asthawa Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-2,Nigam Godown Gayghat
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-11,Shri Dharmendra Prashad Singh Ka Niji Godown(Godown No.1)
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-12,Shri Dharmendra Prashad Singh Ka Niji Godown(Godown No.2)
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-9 Shri Rajeev Kumar Ka Niji Godown,Varsaliganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No 15,Prathmik Krishi Sakh Samiti ,Aurai,Muzaffarpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-14,Shri Mti Madhwi Devi Ka Niji Godown ,Kunjroad,Roh Bhag-1
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-15, Shri Mti Madhwi Devi Ka Niji Godown ,Kunjroad,Roh Bhag-2
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Shri, pankaj kumar Ka Personal Godown,Kulna Akabarpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Shri, Sudhusharan Singh Ka Personal Godown, Barev
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03 , Nigam Godown Patehpur Block Karyalye Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-16,Shri Mti Anjali Devi Ka Niji Godown ,Odhanpur,Nawada
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.10,Tisiautta Dharmpur Panchayat Pacs
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Biscoman Sobiya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-8 Shree Mati Veena Devi Ka Niji Godown,Nawada
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown Block Parisar Jandaha
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown, Bazar Samiti Parisar , SItamarhi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown, Bazar Samiti Parisar, Sitamarhi.
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| CMR Godown No-5 Nigam Godown, Bazar Samiti , Biharsharif
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01 Swc Godown , Bazar Samiti Parisar, Biharsharif
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02Swc Godown , Bazar Samiti Parisar, Biharsharif
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03,Swc Godown , Bazar Samiti Parisar, Biharsharif
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04,Swc Godown , Bazar Samiti Parisar, Biharsharif
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nira Godown, Bazar Samiti Parisar, Bihar Sharif
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-12, Neera Godown, Bazar Samiti parisar, Biharsharif, Nalanda
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-08,Nigam Godown, Sahdei Prakhand Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.13,TPDS Godown,Sahdeyi Bugurg(Nigam Godown)
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-14,Vyaparmandal sahdehi Bujurg
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-17,Narhat Pacs Godown,Nawada
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-05,SWC Godown Malighat
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-04,SWC Godown Malighat
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-14,SWC Godown(3B) ,Narayanpur,Muzaffarpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02 , Nigam Godown mahua block office
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06 , Nigam Godown Block Parisar Mahua
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-07, Shri Samdarshi Prasad Singh ka Nigi Godown, Badhauna, Nawada
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04 , Nigam Godown , Premraj Chehrakala, Nigam Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown Minapur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 11, Nigam Godown Kudhani
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 12, Nigam Godown Kudhani
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown, Sunaul Sultaan Kay Paas , Punahia
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown, Piprahi Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-22,Sonaru Chilka,Fatuha,Daniyawa Road,Bhagwan Prashad Ka Niji Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-21,BSWC Ka Godown,Patna
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown Kanti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown Kanti Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown, Near B,S,N,L Tower, Sheohar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown, Sheohar Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown, Near B,S,N,L Tower, Sheohar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-12,New Constructed Godown ,Dumri Block,Sheohar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 09, Nigam Godown , Bazar Samiti , Katra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown , Bazar Samiti , Katra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-17 Nigam Godown Katra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-09,Patedhi Belsar Block
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05 , Nigam Godown Block Parisar Lalganj
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-15,Keur Pacs Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown Hulasganj, Jehanabad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown , Balidaad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown Goshi Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 09, Nigam Godown Goshi Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown, Chakia Bazaar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown, Chakia Bazaar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown , Chakia Bazar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown , Chakia Bazar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-08,Nigam Godown,Bazar Samiti,Chakiya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown ,Prakhand Parisar Parsha
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 09, Nigam Godown barachatti parkhand parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown barachatti parkhand parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown ,Treasury Bhawan ke Paas, jehanabad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-14,Vyaparmandal Godown ,Jehanabad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown, Bazar Samiti Parisar, Jehanabad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown bazaar samiti parisar jehananbad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.12 Viscoman Godown,Bazar Samiti Jahanabad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown, Bazar Samiti Parisar, Jehanabad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Swc Godown Bazar Samiti Parisar, Jehanabad
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown ,parkhand parisar chandauti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown Makhdumpur Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown Makhdumpur Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 31, Nigam Godown , Bazar Samiti Chandauti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-11,Nigam Godown, Dharnai,Makdumpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown ,Chandauti Bazar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown ,Chandauti Bazar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown ,Chandauti Bazar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-41,Bazar Samiti Chandauti,Gaya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-42,Bazar Samiti,Chandauti,Gaya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown ,Chandauti Bazar Samiti
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown no- 12 (TPDS Godown), Prakhand, Taraiya
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown , Banjaria
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-09 Banjariya Prakhand Parisar Stith Nigam Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown Mahamadpur,Prakhand Panapur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown , Bazar Samiti , Bihta
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown , Bazar Samiti , Bihta
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-03, Nigam Godown, Bazar Samiti, Bihta
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-04, Nigam Godown, Bazar Samiti, Bihta
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 12, Bihar Rajya Bhandaar Nigam, Bihta
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-11, Bihar Rajya Bhandhar Nigam, Bihta
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-17,Bardahiya Pacs Godown ,Marhaura
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-14,Marhaura Vyaparmandal Sahyog samiti Ltd.,Marhaura
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-23,Bihta Fatuha Road Shivgadh At-Santosh Kumar Ka Niji Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown Sherghati Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown Sherghati Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.-9 (TPDS Godown) Prakhand Prisar, Mashrakh
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-10 (TPDS Godown), Prakhand Prisar, Purana Nigam Godown, Mashrakh
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 40,Pareb Nigam Godown ,Gurudham
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No:-13,Ramgadhwa Prakhand Ke Pass
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 11, Nigam Godown gurua parkhand parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 12, Nigam Godown gurua parkhand parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown, Bazar Samiti Parisar, Chhapra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown, Bazar Samiti Parisar, Chhapra
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 09, Nigam Godown , Bajitpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown , Bajitpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown , Bajitpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown, Sugauli Anchal Office
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-16,Sanauli Pacs Godown,Mashrakh
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown , Karpi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 11, Nigam Godown ,Karpi
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown, Sidwaliya Block Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No. 13, Shri Mti Ahilya Devi, Kohluwa
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 21, Nigam Godown Basantpur
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 21, BSWC Godown , Bazar Samiti , Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 20, BSWC Godown , Bazar Samiti , Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-12 BSWC Ka Purana Godown Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No-13 BSWC Ka Purana Godown Parisar
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No.14 Sarouti Pacs Rampur Chauram Godown
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 06, Swc Godown , Bazar Samiti Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 07, Swc Godown , Bazar Samiti Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown , Bazar Samiti , Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 05,Nigam Godown, Bazaar Samiti Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown , Bazar Samiti , Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown , Bazar Samiti , Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown , Bazar Samiti , Arah
+[2025-11-12 15:34:03] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown , Pipra Bangla
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 12, Nigam Godown , Pipra Bangla
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No:-18,Rajya Bhandar Nigam,PEG Godown Kasap Block-2
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No:-17,Rajya Bhandar Nigam,PEG Godown Kasap Block-1
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 20, Nigam Godown Goriyakothi
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown , Balidaad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown , Balidaad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown , Balidaad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown , Balidaad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown ,Dayalpur,Prakhand Lahladpur
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown, Manghi
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-32,Bindbal Pacs Pratmik Krishi Sakh Sahyog Samiti Ltd
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No:-15:-ParshaGadh Prakhand Ekma
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown, Chanpatia Bazar Bettiah,
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-08,Nigam Godown,Bazar Samiti Chanpatiya
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown, Bazar Samiti Bettiah
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown, Bazar Samiti Bettiah
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-21,Singh Godown,Manjha,Gopalganj
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-13,Singh Godown,Koini(CMR)Godown
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-14,Singh Godown,Koini(CMR)Godown
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No:-15,Singh Godown,Koien Ke Pass
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-04, Nigam Godown, Block Parisar, Maharajganj
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-03, Nigam Godown, Block Parisar, Maharajganj
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown, Manjha Block Parisar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-07,Nigam Godown,Bazar Samiti,Naktiyaganj,Bettiah
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown, Narkatiyaganj Bazar Samiti
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-05, Nigam Godown, Darondha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 06- Biscoman Godown, (135B) Goplaganj
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No:-20,Shri Krishna Traders ,Aarar Mod Ke Najdik ,Gopalganj
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown Bazar Samiti, Daudnagar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown Bazar Samiti Daudnagar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown Bazar Samiti Daudnagar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown Bazar Samiti Daudnagar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 05, Biscoman Godown , Forum Godown, Biscoman, Aurangabad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 08, Block Parisar Shahpur
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 19, Nigam Godown Siswan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-32,BSWC Godown Obra
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 33, Obra BSWC Campus, PEG AN ROAD Aurangabad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No:-31,BSWC Godown,Obera(PEG A.N.ROAD)
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-22,Indarwa Abdullah Pacs Godown,Thawe
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-30,Sri Mti Shobha Singh Ka Niji Godown SH-89,Siwan Siswan Main Road,Siwan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-29,Sri Mti Shobha Singh Ka Niji Godown SH-89,Siwan Siswan Main Road,Siwan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 26,Biskoman Godown,Virudiya Hata,Krishi Bhawan Ke Pass
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-31,Biskoman Godown Police Line,Siwan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown, Siwan New Poilce Line
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-14,Nigam Godown,Hussainganj,Siwan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-15,Nigam Godown,Hussainganj,Siwan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-34 Bharaundha Pacs Godown,Aurangabad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-13,Nigam Godown,Aandar,Siwan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 24, Nigam Godown Aandar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown, Block Parisar, Kutmba
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-33,Bhantapokhar Pacs Pratmik Krishi Sakh Sahyog Samiti Ltd
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-35,Shri Pawan Kumar raghunathpur Siwan Ka Niji Godown
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-28,Sri Mti Malti Devi Ka Niji Godown ,Husband Shri Anil Kumar,Amvari,Ragunathpur,Siwan
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 18, Nigam Godown Raghunathpur
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown , Barun Barka Nahar Ke Paas
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-34,Gabhirar Pacs Pratmik Krishi Sakh Sahyog Samiti Ltd
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 08- Nigam Godown , Panchdevri
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-39,BSWC 3B,Bazar Samiti Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 17, Nigam Godown , Bazar Samiti , Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 16, Nigam Godown , Bazar Samiti , Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 22, Nigam Godown Mairwa
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 12, Nigam Godown , Bazar Samiti , Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 14, Nigam Godown , Bazar Samiti , Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 15, Nigam Godown , Bazar Samiti , Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 13, Nigam Godown , Bazar Samiti , Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-38,BSWC 3A,Bazar Samiti Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-28 Bazar Samiti Godown ,Natwar BSWC KA Godown
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-35,SWC Godown ,Bazar Samiti,Natwar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No.13 , Nigam Godown Block parishar ,Navinagar Aurangabad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-36,Navinagar Prakhand Vyaparmandal Godown,Aurangabad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-37,Navinagar Prakhand Vyaparmandal Godown,Aurangabad
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 09, Nigam Godown , Prakhand Parisar, Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 8, Darauli Prakhand Parisar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 7, Darauli Prakhand Parisar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown , Bazar Samiti , Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown , Bazar Samiti , Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown , Bazar Samiti , Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown , Bazar Samiti , Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 24, SWC Godown ,Bazar Samiti Parisar, Nokha, Rohtas
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown , Bazar Samiti , Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown , Bazar Samiti , Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 11, Nigam Godown , Bazar Samiti , Nokha
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 06, Nigam Godown, Bagha - 01 Block Parisar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 18, Nigam Godown , Block Parisar Dinara
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 23, Nigam Godown ,Gudhni
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-36,SWC Godown Bazar Samiti Parisar,Sasaram
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No:-23,SWC Godown ,Bazar Samiti Parisar,Sasaram (Rohtas)
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No. -27, SWC Godown, Bazar Samiti Parisar, Sasaram
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-27,SWC Godown,Bazar Samiti Parisar,Sasaram (Rohtas)
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown , Bazar Samiti , Sasaram
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown , Bazar Samiti , Sasaram
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 11- Nigam Godown Vijaypur
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 06- Biscoman Godown, Goplaganj Manikpur Road
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown , Bazar Samiti , Buxar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown , Bazar Samiti , Buxar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown , Bazar Samiti , Buxar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown , Bazar Samiti , Buxar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 07, Nigam Godown , Bazar Samiti , Buxar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown , Bazar Samiti , Buxar
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 19, Nigam Godown , Block Parisar, Nauhatta
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-34,Prakhand Parisar Godown ,Nauhatta
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 20, Nigam Godown , Block Parisar, Chenari
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 25, Nigam Godown , Block Parisar, Chenari
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 12, Nigam Godown , Nauhatta
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 21, Nigam Godown, Rampur Prakhand Parisar, Kaimur
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-50,Fabricated Godown Dadar Mohaniya Godown No.01
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-51,Fabricated Godown Dadar Mohaniya Godown No.02
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 01, Nigam Godown ,Bazar samiti parisar Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-42 Nigam Godown ,Bazar Samiti,Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 03, Nigam Godown , Bazar samiti parisar Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No-41 Nigam Godown ,Bazar Samiti,Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 04, Nigam Godown , Bazar samiti parisar Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 09, Nigam Godown ,Bazar samiti parisar Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 08, Nigam Godown , Bazar samiti parisar Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 02, Nigam Godown , Bazar samiti parisar, Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 05, Nigam Godown , Bazar samiti parisar Mohania
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 10, Nigam Godown , Block Parisar Adhaura
+[2025-11-12 15:34:04] User -> DCP Added -> admin@pds| Godown No- 11, Nigam Godown , Block Parisar Durgawati
+[2025-11-12 15:41:39] User -> Warehouse deleted -> admin@pds| Requested JSON -> {"uid":"all"} | all
+[2025-11-12 15:43:28] User -> Warehouse deleted -> admin@pds| Requested JSON -> {"uid":"all"} | all
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Azamnagar
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Balrampur
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Barsoi
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Kadwa
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Katihar A
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Katihar B
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Katihar Sadar
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Barari
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Korha
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Falka
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Sameli
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Amdabad
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS Manihari
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS ARWAL
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KARPI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KURTHA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BARUN
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS AURANGABAD
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DAUDNAGAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DEO
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS GOH
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS HASPURA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KUTUMBA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS MADANPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS NABINAGAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS OBRA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS ARRAH
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS AGIAON
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS RAFIGANJ
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS CHARPOKHARI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BARHARA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS GARHANI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BIHIYA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS JAGDISHPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KOILWAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS SHAHPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS SAHAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS PIRO
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS SANDESH
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS TARARI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BRAHAMPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BUXAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS CHAUSA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS RAJPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DUMROAN
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS SIMRI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS NAWANAGAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS AMAS
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS ITARHI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BARACHATTI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS ATRI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BELAGANJ
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BANKE BAZAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BODHGAYA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BHUSANDA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DOBHI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DUMARIA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS GURARU
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS FATEHPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS IMAMGANJ
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS GURUA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KHIZIRSARAI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KONCH
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS MANPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS MOHANPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS MUHRA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS PARAIYA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS NEEM CHAK BATHANI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS SHERGHATI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS TANKUPPA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS TIKARI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS WAZIRGANJ
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS GHOSHI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS JEHANABAD
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KAKO
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS MAKHDUMPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS RATNI FARIDPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BHABHUA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS ADHAURA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BHAGWANPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS CHAND
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DURGAWATI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS CHAINPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS KUDRA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS MOHANIA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS ASTHAWAN
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS RAMPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS NUWAN
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS RAMGARH
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BIHAR SHARIF BAZAR SAMITI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BIHAR SHARIF PARKHAND PARISAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS EKANGARSARAI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS CHANDI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS GIRIYAK
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS HARNAUT
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS NOORSARAI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS HILSA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS ISLAMPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS RAHUI
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS RAJGIR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS SARMERA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS SILAO
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BAKHTIYARPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BARH
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DANAPUR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BIHTA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DULHIN BAZAR
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS BIKRAM
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS DHANARUA
+[2025-11-12 15:43:44] User -> Warehouse Added -> admin@pds| TPDS FATUHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KHUSRUPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MANER
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KATRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NAUBATPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PALIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS M HATT B
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS M HATT A
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MASAURHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MOKAMA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PANDARAK
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PHULWARI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS AKORHI GOLA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PUNPUN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHENARI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BIKRAMGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DINARA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DEHRI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DAWATH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KARAKAT
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KARGAHAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KARGAHAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NARSRIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NAUHATTA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NOKHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ROHTAS
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAJPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SASARAM
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SANJHAULI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SHEOSAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DAWATH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TILOUTHU
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAGAHA I
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAGAHA II
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAIRIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHANPATIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS JOGAPATTI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS LAURIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BETTIAH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GAUNAHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MADHUBAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAINATARH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NARKATIYAGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAJHAULIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SIKTA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NAUTAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAMNAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAIKUNTHPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS THAKRAHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BHOREY
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BIJAIPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GOPALGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HATHUA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KATIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MANJHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KUCHAIKOTE
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS UCHAKAGOAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ADAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BANJARIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ARERAJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHAKIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHHAURADANO
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DHAKAI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DHAKA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HARSIDHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GHORASAHAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GHORASHAN I
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KALAYANPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KOTWA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KESHARIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MADHOOBAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MADHUBAN I
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MOTIHARI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MEHASI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PAHARPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PAKARIDYAL
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SUGAULI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAXAUL
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PATAHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAMGADHWA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TURKAULIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS AURAI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BARURAJ (MOTIPUR)
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BANDRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KURHANI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GAIGHAT
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BOCHAHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DHOLI (MORAUL)
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KATRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KANTI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MARWAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MINAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MUSAHARI (BELA)
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MUSAHARI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SAKRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MUSAHARI (KHADI BHANDAR)
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DUMRI KATSARI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SAHEBGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SARAIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PAROO
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PIPRAHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SHEOHAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAIRGANIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TARIANI CHOWK
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BATHNAHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAJPATTI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NANPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DUMRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAJORGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BELSAND
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PARIHAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PUPRI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RIGA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RUNISAIDPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SURSAND
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SONBARSA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BARHARIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BHAGWANPUR HAT
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BASANTPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ANDAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DURANDA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GORIAKOTHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GUTHANI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HUSSAINGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAHARAJGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAIRWA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PACHRUKHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAGUNATHPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SIWAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SISWAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS LAKRI NABIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BIDUPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS JANDAHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HAJIPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GORAUL
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS LALGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAHNAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PATEPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAHUA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAJA PAKAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PATERHI BELSAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SAHDAI BUZURG
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS VAISHALI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS AMNOUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BANIYAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DARIYAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GARKHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHAPRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DIGHWARA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS EKMA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ISUAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS JALALPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MANJHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MARHAURA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MASHRAKH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NAGRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PANAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PARSA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TARAIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ARARIA I
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SONEPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ARARIA II
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BHARGAMA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS FORBESGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KURSAKATTA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RANIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NARPATGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PALASI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ALINAGAR VM
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAHADURPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAHERI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BENIPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GHANSHYAMPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BIRAUL
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HANUMANNAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KEOTI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS LAHORI SHED(LAHERIA SARAI)
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HAYAGHAT
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KUSHESHWAR ASTHAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS JALE
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MANIGACHHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SINGHWARA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SHIVDHARA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TARDIH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAHADURGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DIGHALBANK
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KISHANGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KOCHADHAMAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS POTHIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS THAKURGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TERHAGACHH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ALAMNAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BIHARIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SINGHESHWAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KUMARKHAND
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MADHEPURA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MURALIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS UDAKISHANGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ANDHRATHARHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BABUBARHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BASOPATTI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BENIPATTI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GHOGHARDIHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HARLAKHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS JAYNAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS JHANJHARPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BISFI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KHUTAUNA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KHAJAULI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS LADANIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS LAKHNAUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS LAUKAHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAJNAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MADHWAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PANDAUL
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MADHEPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAHIKA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS AMOUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BANMANKHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAISA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAISEE
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BARHARA KOTHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BHAWANIPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS JALALGARH
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DHAMDAHA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS GULABBAGH I
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DAGARUA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KASBA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KRITYANAND NAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RUPAULI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KAHRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PATARGHAT
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MAHISHI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SALKHUA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SIMRI BAKHTIYARPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SATAR KATAIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NAUHATTA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SONBARSA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SOURBAZAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BIBHUTIPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DALSINGHSARAI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KALYANPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS HASANPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MOHIUDINNAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KHANPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS MORWA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PATORI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ROSERA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PUSA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SAMASTIPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SARAIRANJAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SHIVAJINAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS WARISNAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS UJIARPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TAJPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SINGHIA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS VIDYAPATINAGAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KISHANPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHHATAPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BASANTPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS NIRMALI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS TRIBENIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PIPRA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAGHOPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BANKA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS AMARPUR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SUPAUL
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BARAHATS
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BAUSI
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BELHAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHANAN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS KATORIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS DHURAIYA
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS RAJOUN
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS PHULIDUMAR
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS BARHAT
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS SHAMBHUGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS ISLAMNAGAR ALIGANJ
+[2025-11-12 15:43:45] User -> Warehouse Added -> admin@pds| TPDS CHAKAI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS JAMUI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS GIDHAUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS KHAIRA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS LAXMIPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS JHAJHA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SONO
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SIKANDRA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BARIYARPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS JAMALPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS DHARHARA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS KHARAGPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SANGRAMPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS MUNGER
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS GOVINDPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS TARAPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS AKBARPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS KAWAKOL
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS HISUA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS MESKAUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS NARHAT
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS NAWADA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS PAKRIBARAWAN
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS RAJAULI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SIRDALA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS WARISALIGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BACHHWARA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BAKHRI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BALIA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BEGUSARAI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BARAUNI ZERO MILE
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS CHHORAHI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS MATIHANI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BHAGWANPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS CHERIA BARIARPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SAHEBPUR KAMAL
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS GARHPURA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS TEGHRA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BAGWARI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BIHPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS GORADIH
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS KAHALGAON
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS NATHNAGAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS NAUGACHIA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS JAGDISHPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS PIRPAINTI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS KHARIK
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS RANGRA CHOWK
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SABOUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SANHAULA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SHAKUND
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SULTANGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS GOGRI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS ALAULI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS CHAUTHAM
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BELDAUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS KHAGARIA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS ARIYARI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS PARBATTA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BARBIGHA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SHEIKHPURA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS LAKHISARAI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SURAJGARHA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS RAMGARH CHOWK
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BARAHIYA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS ASARGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BIRAUL URBAN
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS BARAULI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| TPDS SIDHWALIA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD KATIHAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC KATIHAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC KATIHAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC FORBESGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PEG FORBESGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC LADHA DARBHANGA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC NARPATGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD DARBHANGA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC DARBHANGA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| ADANI AGRO LOGISTIC LTD SILO DARBHANGA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| ADANI AGRO LOGISTIC LTD SILO KATIHAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC KISHANGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| P E G KISHANGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC MADHEPURA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC MURLIGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC RESHNA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC GARBAINALI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD JAYNAGAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC JHANJHARPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC GULABBAGH
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD BELOURI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD SAHARSA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC SAHARSA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PWS SAHARSA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC SAMASTIPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC SAMASTIPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC SUPAUL
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC NAUGACHHIA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| ADANI AGRO LOGISTIC LTD SILO PUSA SAMASTIPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| APM CBEGUSARAI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC TILRATH
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| SWC JAMUI (PEG)
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC KHAGARIA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| ARD CJAMUI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC MUNGER
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PWS MANSI KHAGARIA PRISTINE MEGA FOOD PARK PVT
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC CHAPRA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC SITAMARHI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD MUNGER
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| ARD CPUNAURA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC RAXAUL
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PEG BETTIAH
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC BETTIAH
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD CHANPATIA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC BETTIAH
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC NARKATIYAGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC MOTIHARI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PEG GOPALGANJ
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PEG FURSATPUR-MOTIHARI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD NARAYANPUR ANANT
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| SWC NRPA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PWS BELKUNDA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| CWC SIWAN
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC DARAUNDHA SIWAN
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC BHAGWANPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| PWS SARAI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| SWC ARRAH
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FCI FSD BUXAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FSD GAYA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| SWC MANPUR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FCI PHULWARI SHARIF
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC NATWAR
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC SASARAM
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FCI /PEG KUSHARIYAN
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC BIHTA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FCI MOKAMA
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC JEHANABAD
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| BSWC BARAUNI
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| FCI ,SILO,Itarhi Buxar
+[2025-11-12 15:43:46] User -> Warehouse Added -> admin@pds| KUSHMAHAUT FCI

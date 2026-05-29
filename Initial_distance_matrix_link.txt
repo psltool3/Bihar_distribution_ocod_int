@@ -1,0 +1,7 @@
+Due to size constraints, the initial distance matrix has not been pushed to GitHub. You can download it from the URL below. 
+
+1. https://docs.google.com/spreadsheets/d/1EP1PIkroDjSABRfbJbGciLuAwxM3aLoH/edit?usp=sharing&ouid=108493725049003406898&rtpof=true&sd=true
+2. https://docs.google.com/spreadsheets/d/1rAOH8nripFggpgG2ET5dF1SumjzedRUS/edit?usp=sharing&ouid=108493725049003406898&rtpof=true&sd=true
+
+
+After download pls put the distance matrix in backend/backend folder. 

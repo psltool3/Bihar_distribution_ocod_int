@@ -1,0 +1,115 @@
+[2026-01-09 13:23:47] User -> DCP Active -> Jamui@pds| Godown No- 01 Nigam Godown ,Khaira
+[2026-01-09 13:23:53] User -> DCP Active -> Jamui@pds| Godown No-12,Nav Nirmit Pre-fab Godown Khaira
+[2026-01-09 13:23:57] User -> DCP InActive -> Jamui@pds| Godown No-4 Giddaur Vyapar Mandal Ka Godown
+[2026-01-09 13:26:39] district_user -> Warehouse Edit ->Jamui@pds| Requested JSON -> {"name":"ARDC JAMUI","uniqueid":"WH_69145dda5ada","active":"1","type":"motorable","latitude":"24.97483","storage":"28000","district":"Jamui","id":"24000040","warehousetype":"swc","longitude":"86.25636"}
+[2026-01-09 13:28:46] User -> DCP Active -> Jehanabad@pds| Godown No- 06, Nigam Godown Hulasganj, Jehanabad
+[2026-01-09 13:29:38] User -> DCP Active -> Jehanabad@pds| Godown No- 10, Nigam Godown Goshi Block Parisar
+[2026-01-09 13:29:41] User -> DCP Active -> Jehanabad@pds| Godown No- 09, Nigam Godown Goshi Block Parisar
+[2026-01-09 13:30:56] User -> DCP Active -> Jehanabad@pds| Godown No- 02, Nigam Godown, Bazar Samiti Parisar, Jehanabad
+[2026-01-09 13:31:09] User -> DCP Active -> Jehanabad@pds| Godown No- 03, Nigam Godown, Bazar Samiti Parisar, Jehanabad
+[2026-01-09 13:31:29] User -> DCP Active -> Jehanabad@pds| Godown No- 08, Nigam Godown Makhdumpur Block Parisar
+[2026-01-09 13:31:57] User -> DCP Active -> Jehanabad@pds| Godown No.-11,Nigam Godown, Dharnai,Makdumpur
+[2026-01-09 13:37:44] User -> Warehouse InActive -> Bhagalpur@pds| 
+[2026-01-09 13:37:59] User -> Warehouse Active -> Bhagalpur@pds| 
+[2026-01-09 13:40:00] district_user -> Warehouse Edit ->Bhagalpur@pds| Requested JSON -> {"name":"TPDS JAGDISHPUR","uniqueid":"WH_69145dda29ee","active":"1","type":"motorable","latitude":"25.114015","storage":"5000","district":"Bhagalpur","id":"2240454","warehousetype":"swc","longitude":"86.984948"}
+[2026-01-09 13:40:40] User -> DCP Active -> Muzaffarpur@pds| Godown No-04,SWC Godown Malighat
+[2026-01-09 13:40:49] User -> DCP Active -> Muzaffarpur@pds| Godown No-05,SWC Godown Malighat
+[2026-01-09 13:42:59] User -> DCP Active -> Muzaffarpur@pds| Godown No- 08, Nigam Godown Kanti
+[2026-01-09 13:45:26] district_user -> Warehouse Edit ->Bhagalpur@pds| Requested JSON -> {"name":"Tpds Jagdishpur","uniqueid":"WH_69145dda29ee","active":"1","type":"motorable","latitude":"25.114015","storage":"5000","district":"Bhagalpur","id":"2240454","warehousetype":"other","longitude":"86.984948"}
+[2026-01-09 13:46:04] district_user -> Warehouse Edit ->Bhagalpur@pds| Requested JSON -> {"name":"Tpds Jagdishpur","uniqueid":"WH_69145dda29ee","active":"1","type":"motorable","latitude":"25.114015","storage":"5000","district":"Bhagalpur","id":"2240454","warehousetype":"swc","longitude":"86.984948"}
+[2026-01-09 13:46:21] district_user -> DCP added ->Jamui@pds| Requested JSON -> {"name":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 13:49:33] User -> DCP Active -> Madhepura@pds| Godown No.07,Prakhand Parishar Muraliganj Nigam Godown
+[2026-01-09 13:50:22] User -> DCP Active -> Madhepura@pds| Godown No- 02 Nigam Godown , Block Parisar, GHANMARIYA
+[2026-01-09 13:50:32] district_user -> DCP Edit ->Jamui@pds| Requested JSON -> {"name":"Godown No-14Nav Nirmit  Pre-fab GodownJhajha","uniqueid":"DCP_6960b9554ac","active":"1","type":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 13:52:03] district_user -> DCP Edit ->Jamui@pds| Requested JSON -> {"name":"Godown No-14Nav Nirmit  Pre-fab GodownJhajha","uniqueid":"DCP_6960b9554ac","active":"1","type":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 13:52:57] district_user -> DCP added ->Jamui@pds| Requested JSON -> {"name":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 13:53:32] district_user -> DCP Edit ->Jamui@pds| Requested JSON -> {"name":"Godown No-14Nav Nirmit  Pre-fab GodownJhajha","uniqueid":"DCP_6960bae1341","active":"1","type":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 14:03:15] District User ->Model FPS InActive -> Nalanda@pds|  KANHAY SINGH
+[2026-01-09 14:05:10] District User -> FPS InActive -> Sheikhpura@pds| 
+[2026-01-09 14:05:10] District User -> FPS Active -> Sheikhpura@pds| 
+[2026-01-09 14:20:54] User -> DCP InActive -> Lakhisarai@pds| Godown no:-09,Naungadh Pacs Godown,Naungadh
+[2026-01-09 14:21:10] User -> DCP InActive -> Lakhisarai@pds| Godown No-10,Aure Pacs Godown,Ramgarh Chok,Lakhisarai
+[2026-01-09 14:21:32] User -> DCP InActive -> Lakhisarai@pds| Godown N0-11,Shri Satish Singh Ka Niji Godown,Kendi Prakhnd Halsi
+[2026-01-09 14:31:22] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"TPDS DAGARUA","uniqueid":"WH_69145dd9c4bc","active":"1","type":"motorable","latitude":"25.8037851","storage":"6000","district":"Purnia","id":"2110048","warehousetype":"other","longitude":"87.5876144"}
+[2026-01-09 14:33:37] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"BSWC GARBAINALI","uniqueid":"WH_69145dda5058","active":"1","type":"motorable","latitude":"25.8970594","storage":"65000","district":"Purnia","id":"21104192","warehousetype":"other","longitude":"87.5400527"}
+[2026-01-09 14:34:21] district_user -> Warehouse Edit ->Purnia@pds| Requested JSON -> {"name":"TPDS GULABBAGH I","uniqueid":"WH_69145dd9c3b4","active":"1","type":"motorable","latitude":"25.78837","storage":"10000","district":"Purnia","id":"2110052","warehousetype":"other","longitude":"87.537995"}
+[2026-01-09 14:45:57] User -> DCP Added -> Purnia@pds| Godown No- 02 Nigam Godown , , Banmankhi Bazar Samiti
+[2026-01-09 15:00:41] User -> DCP InActive -> Aurangabad@pds| Godown No-37,Navinagar Prakhand Vyaparmandal Godown,Aurangabad
+[2026-01-09 15:01:06] User -> DCP InActive -> Aurangabad@pds| Godown No-32,BSWC Godown Obra
+[2026-01-09 15:01:12] User -> DCP InActive -> Aurangabad@pds| Godown No- 33, Obra BSWC Campus, PEG AN ROAD Aurangabad
+[2026-01-09 15:01:30] User -> DCP Active -> Aurangabad@pds| Godown No- 08, Nigam Godown , Barun Barka Nahar Ke Paas
+[2026-01-09 15:05:10] district_user -> Warehouse Edit ->Begusarai@pds| Requested JSON -> {"name":"APMC BEGUSARAI","uniqueid":"WH_69145dda5832","active":"1","type":"motorable","latitude":"25.4399412","storage":"268800","district":"Begusarai","id":"22204156","warehousetype":"swc","longitude":"86.1396511"}
+[2026-01-09 15:05:40] district_user -> Warehouse Edit ->Begusarai@pds| Requested JSON -> {"name":"APMC BEGUSARAI","uniqueid":"WH_69145dda5832","active":"1","type":"motorable","latitude":"25.4399412","storage":"268800","district":"Begusarai","id":"22204156","warehousetype":"swc","longitude":"86.1396511"}
+[2026-01-09 15:21:45] district_user -> DCP added ->Jamui@pds| Requested JSON -> {"name":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"00","demand":"00","demand_rice":"00"}
+[2026-01-09 15:23:57] district_user -> DCP Edit ->Jamui@pds| Requested JSON -> {"name":"Godown No-14Nav Nirmit  GodownJhajha","uniqueid":"DCP_6960bae1341","active":"1","type":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 15:26:23] User -> DCP Active -> Madhubani@pds| Godown No- 04 Nigam Godown , Block Headquarter, Ghorgadih
+[2026-01-09 15:26:37] User -> DCP Active -> Madhubani@pds| Godown No- 06 Nigam Godown , Block Headquarter, Ghorgadih
+[2026-01-09 15:26:41] User -> DCP Active -> Madhubani@pds| Godown No- 02 Nigam Godown , Basopatti, Block Parisar
+[2026-01-09 15:26:42] User -> DCP Active -> Madhubani@pds| Godown No-08,TPDS Godown,Harlakhi
+[2026-01-09 15:26:44] User -> DCP Active -> Madhubani@pds| Godown No:-07,TPDS Godown ,Madhwapur
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS AMOUR
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS BANMANKHI
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS BAISA
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS BAISEE
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS BARHARA KOTHI
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS BHAWANIPUR
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS JALALGARH
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS DHAMDAHA
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| Tpds Gulabbagh I
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| Tpds Dagarua
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS KASBA
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS KRITYANAND NAGAR
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| TPDS RUPAULI
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| Bswc Garbainali
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| BSWC GULABBAGH
+[2026-01-09 15:28:18] User -> Warehouse Edit -> Purnia@pds| FSD BELOURI
+[2026-01-09 15:29:41] district_user -> DCP added ->Jamui@pds| Requested JSON -> {"name":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 15:30:54] district_user -> DCP Edit ->Jamui@pds| Requested JSON -> {"name":"Godown No-14 Nav Nirmit  Pre-fab GodownJhajha","uniqueid":"DCP_6960d18d85c","active":"1","type":"DCP","latitude":"24.814145","longitude":"86.484872","district":"Jamui","id":"Jamui@pds","demand":"0000","demand_rice":"00000"}
+[2026-01-09 15:34:15] User -> DCP Active -> Sitamarhi@pds| Godown No- 02, Nigam Godown, Bazar Samiti Parisar , SItamarhi
+[2026-01-09 15:46:55] User -> DCP Active -> Samastipur@pds| Godown No- 01 Nigam Godown , Bazar Samiti , Samastipur,
+[2026-01-09 15:47:59] User -> DCP Active -> Sheikhpura@pds| Godown No- 06 Nigam Godown , Chewara Block
+[2026-01-09 15:56:48] User -> DCP InActive -> Nawada@pds| Godown No- 04, Shri, Dharmchandr Prasad Ka Personal Godown, Pakribarawa
+[2026-01-09 15:56:50] User -> DCP Active -> Nawada@pds| Godown No- 04, Shri, Dharmchandr Prasad Ka Personal Godown, Pakribarawa
+[2026-01-09 15:57:51] User -> DCP InActive -> Nawada@pds| Godown No- 04, Shri, Dharmchandr Prasad Ka Personal Godown, Pakribarawa
+[2026-01-09 16:01:40] User -> DCP InActive -> Nawada@pds| Godown No-17,Narhat Pacs Godown,Nawada
+[2026-01-09 16:03:00] User -> DCP Active -> Nawada@pds| Godown No- 06, Shri, pankaj kumar Ka Personal Godown,Kulna Akabarpur
+[2026-01-09 16:03:07] User -> DCP Edit -> Purnia@pds| Godown No- 01 Nigam Godown , Bazar Samiti, Kasba,
+[2026-01-09 16:03:07] User -> DCP Edit -> Purnia@pds| Godown No- 04,Nigam Godown,Bazar Samiti,Kasba
+[2026-01-09 16:03:07] User -> DCP Edit -> Purnia@pds| Godown No- 03, Nigam Godown , Jalalgardh
+[2026-01-09 16:03:07] User -> DCP Edit -> Purnia@pds| Godown No -05 Nigam Godown Bazar Samati,Banmankhi
+[2026-01-09 16:03:07] User -> DCP Edit -> Purnia@pds| Godown No- 02 Nigam Godown , , Banmankhi Bazar Samiti
+[2026-01-09 16:03:56] User -> DCP Active -> Nawada@pds| Godown No:-14,Shri Mti Madhwi Devi Ka Niji Godown ,Kunjroad,Roh Bhag-1
+[2026-01-09 16:04:12] User -> DCP Active -> Nawada@pds| Godown No- 03, Biscoman Sobiya
+[2026-01-09 16:07:06] User -> DCP Active -> Siwan@pds| Godown No-04, Nigam Godown, Block Parisar, Maharajganj
+[2026-01-09 16:07:51] User -> DCP Active -> Siwan@pds| Godown No- 19, Nigam Godown Siswan
+[2026-01-09 16:08:12] User -> DCP InActive -> Siwan@pds| Godown No-32,Bindbal Pacs Pratmik Krishi Sakh Sahyog Samiti Ltd
+[2026-01-09 16:08:37] User -> DCP InActive -> Siwan@pds| Godown No-29,Sri Mti Shobha Singh Ka Niji Godown SH-89,Siwan Siswan Main Road,Siwan
+[2026-01-09 16:08:57] User -> DCP InActive -> Siwan@pds| Godown No-31,Biskoman Godown Police Line,Siwan
+[2026-01-09 16:09:25] User -> DCP Active -> Siwan@pds| Godown No-15,Nigam Godown,Hussainganj,Siwan
+[2026-01-09 16:09:45] User -> DCP Active -> Siwan@pds| Godown No- 24, Nigam Godown Aandar
+[2026-01-09 16:09:53] User -> DCP InActive -> Siwan@pds| Godown No-33,Bhantapokhar Pacs Pratmik Krishi Sakh Sahyog Samiti Ltd
+[2026-01-09 16:10:06] User -> DCP InActive -> Siwan@pds| Godown No-35,Shri Pawan Kumar raghunathpur Siwan Ka Niji Godown
+[2026-01-09 16:10:14] User -> DCP InActive -> Siwan@pds| Godown No-28,Sri Mti Malti Devi Ka Niji Godown ,Husband Shri Anil Kumar,Amvari,Ragunathpur,Siwan
+[2026-01-09 16:11:07] district_user -> Warehouse Edit ->Sitamarhi@pds| Requested JSON -> {"name":"ARDC PUNAURA","uniqueid":"WH_69145dda5e6c","active":"1","type":"motorable","latitude":"26.585658","storage":"500000","district":"Sitamarhi","id":"20600047","warehousetype":"swc","longitude":"85.469225"}
+[2026-01-09 16:11:26] User -> DCP Active -> Siwan@pds| Godown No- 8, Darauli Prakhand Parisar
+[2026-01-09 16:11:35] User -> DCP Active -> Siwan@pds| Godown No- 7, Darauli Prakhand Parisar
+[2026-01-09 16:11:44] district_user -> Warehouse Edit ->Sitamarhi@pds| Requested JSON -> {"name":"ARDC PUNAURA","uniqueid":"WH_69145dda5e6c","active":"1","type":"motorable","latitude":"26.585658","storage":"500000","district":"Sitamarhi","id":"20600047","warehousetype":"swc","longitude":"85.469225"}
+[2026-01-09 16:12:27] district_user -> Warehouse Edit ->Sitamarhi@pds| Requested JSON -> {"name":"ARDC PUNAURA","uniqueid":"WH_69145dda5e6c","active":"1","type":"motorable","latitude":"26.585658","storage":"500000","district":"Sitamarhi","id":"20600047","warehousetype":"swc","longitude":"85.469225"}
+[2026-01-09 16:18:02] User -> DCP Active -> Saran@pds| Godown No- 05, Nigam Godown Mahamadpur,Prakhand Panapur
+[2026-01-09 16:18:23] User -> DCP Active -> Saran@pds| Godown no- 12 (TPDS Godown), Prakhand, Taraiya
+[2026-01-09 16:18:33] User -> DCP Active -> Saran@pds| Godown No-10 (TPDS Godown), Prakhand Prisar, Purana Nigam Godown, Mashrakh
+[2026-01-09 16:20:28] User -> DCP InActive -> Saran@pds| Godown No. 13, Shri Mti Ahilya Devi, Kohluwa
+[2026-01-09 16:20:45] User -> DCP InActive -> Saran@pds| Godown No:-14,Marhaura Vyaparmandal Sahyog samiti Ltd.,Marhaura
+[2026-01-09 16:20:55] User -> DCP InActive -> Saran@pds| Godown No:-15:-ParshaGadh Prakhand Ekma
+[2026-01-09 16:21:15] User -> DCP InActive -> Saran@pds| Godown No-16,Sanauli Pacs Godown,Mashrakh
+[2026-01-09 16:21:21] User -> DCP InActive -> Saran@pds| Godown No-17,Bardahiya Pacs Godown ,Marhaura
+[2026-01-09 16:33:20] district_user -> DCP added ->Nawada@pds| Requested JSON -> {"name":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:34:32] district_user -> DCP Edit ->Nawada@pds| Requested JSON -> {"name":"Godown no-2 Biscoman Godown Sobiya","uniqueid":"DCP_6960e07892d","active":"1","type":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:35:16] district_user -> DCP Edit ->Nawada@pds| Requested JSON -> {"name":"Godown No 2 Biscoman Godown Sobiya","uniqueid":"DCP_6960e07892d","active":"1","type":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:35:57] district_user -> DCP Edit ->Nawada@pds| Requested JSON -> {"name":"Godown No- 2  Biscoman Godown Sobiya","uniqueid":"DCP_6960e07892d","active":"1","type":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:36:32] district_user -> DCP Edit ->Nawada@pds| Requested JSON -> {"name":"Godown no-2 Biscoman Godown Sobiya","uniqueid":"DCP_6960e07892d","active":"1","type":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:38:08] district_user -> DCP added ->Nawada@pds| Requested JSON -> {"name":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:38:37] district_user -> DCP Edit ->Nawada@pds| Requested JSON -> {"name":"Godown no-2 Biscoman Godown Sobiya","uniqueid":"DCP_6960e198d0e","active":"1","type":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:44:33] district_user -> DCP Edit ->Nawada@pds| Requested JSON -> {"name":"GODOWN No-2 BISCOMAN GODOWN SOBHIYA","uniqueid":"DCP_6960e198d0e","active":"1","type":"DCP","latitude":"24.869547","longitude":"85.56395","district":"Nawada","id":"2391224","demand":"0.00","demand_rice":"0.00"}
+[2026-01-09 16:47:29] district_user -> Warehouse Edit ->Nawada@pds| Requested JSON -> {"name":"TPDS MESKAUR","uniqueid":"WH_69145dda11af","active":"1","type":"motorable","latitude":"24.739815","storage":"3000","district":"Nawada","id":"2390428","warehousetype":"swc","longitude":"85.354848"}
+[2026-01-09 16:50:12] district_user -> Warehouse Edit ->Nawada@pds| Requested JSON -> {"name":"TPDS MESKAUR","uniqueid":"WH_69145dda11af","active":"1","type":"motorable","latitude":"24.739815","storage":"3000","district":"Nawada","id":"2390428","warehousetype":"swc","longitude":"85.354848"}

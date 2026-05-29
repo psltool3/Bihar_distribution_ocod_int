@@ -1,0 +1,2 @@
+[2026-02-24 10:54:55] User -> Warehouse Edit ->admin@pds| Requested JSON -> {"name":"Tpds Araria I","uniqueid":"WH_69145dd98755","active":"1","type":"motorable","latitude":"26.132113","storage":"10000","district":"Araria","id":"2090130","warehousetype":"tpds","longitude":"87.453872"}
+[2026-02-24 10:55:16] User -> Warehouse Edit ->admin@pds| Requested JSON -> {"name":"TPDS ARARIA II","uniqueid":"WH_69145dd98939","active":"1","type":"motorable","latitude":"26.131121","storage":"10000","district":"Araria","id":"2090375","warehousetype":"tpds","longitude":"87.454785"}

@@ -1,0 +1,36 @@
+[2026-01-10 09:04:54] User -> DCP Active -> Bhagalpur@pds| Godown No-10 Nigam Godown Bagbari Bazar Samiti Bhagalpur
+[2026-01-10 09:05:24] User -> DCP Active -> Bhagalpur@pds| Godown No- 03 Nigam Godown , Bagbari, Bazar Parisar
+[2026-01-10 11:03:28] User -> DCP Added -> Kishanganj@pds| Godown No- 03 Nigam Godown ,Bazar Samiti, Kishanganj
+[2026-01-10 11:04:10] User -> DCP Active -> Kishanganj@pds| Godown No- 5 , Bazar Samiti ,Kishanganj
+[2026-01-10 11:04:19] User -> DCP Active -> Kishanganj@pds| Godown No:-06,Nigam Godown ,Bazar Samiti ,Kishanganj
+[2026-01-10 11:04:23] User -> DCP Active -> Kishanganj@pds| Godown No- 01 Nigam Godown ,Bazar Samiti, Kishanganj
+[2026-01-10 11:04:31] User -> DCP Active -> Kishanganj@pds| Godown No- 4, Bazar Samiti ,Kishanganj
+[2026-01-10 12:56:45] User -> DCP Active -> Kaimur@pds| Godown No-42 Nigam Godown ,Bazar Samiti,Mohania
+[2026-01-10 12:56:59] User -> DCP Active -> Kaimur@pds| Godown No-41 Nigam Godown ,Bazar Samiti,Mohania
+[2026-01-10 12:57:11] User -> DCP Active -> Kaimur@pds| Godown No- 04, Nigam Godown , Bazar samiti parisar Mohania
+[2026-01-10 12:57:24] User -> DCP Active -> Kaimur@pds| Godown No- 08, Nigam Godown , Bazar samiti parisar Mohania
+[2026-01-10 12:57:41] User -> DCP Active -> Kaimur@pds| Godown No- 05, Nigam Godown , Bazar samiti parisar Mohania
+[2026-01-10 12:57:56] User -> DCP Active -> Kaimur@pds| Godown No- 11, Nigam Godown , Block Parisar Durgawati
+[2026-01-10 13:25:00] district_user -> Warehouse Edit ->Lakhisarai@pds| Requested JSON -> {"name":"TPDS BARAHIYA","uniqueid":"WH_69145dda3d1b","active":"1","type":"motorable","latitude":"25.281001","storage":"7000","district":"Lakhisarai","id":"2270371","warehousetype":"swc","longitude":"86.019092"}
+[2026-01-10 13:25:37] district_user -> Warehouse Edit ->Lakhisarai@pds| Requested JSON -> {"name":"Tpds Barahiya","uniqueid":"WH_69145dda3d1b","active":"1","type":"motorable","latitude":"25.281001","storage":"7000","district":"Lakhisarai","id":"2270371","warehousetype":"other","longitude":"86.019092"}
+[2026-01-10 13:26:53] district_user -> Warehouse Edit ->Lakhisarai@pds| Requested JSON -> {"name":"Tpds Barahiya","uniqueid":"WH_69145dda3d1b","active":"1","type":"motorable","latitude":"25.281001","storage":"7000","district":"Lakhisarai","id":"2270371","warehousetype":"other","longitude":"86.019092"}
+[2026-01-10 13:27:38] district_user -> Warehouse Edit ->Lakhisarai@pds| Requested JSON -> {"name":"Tpds Barahiya","uniqueid":"WH_69145dda3d1b","active":"1","type":"motorable","latitude":"25.281001","storage":"10000","district":"Lakhisarai","id":"2270371","warehousetype":"other","longitude":"86.019092"}
+[2026-01-10 13:28:38] district_user -> Warehouse Edit ->Lakhisarai@pds| Requested JSON -> {"name":"TPDS SURAJGARHA","uniqueid":"WH_69145dda3b0b","active":"1","type":"motorable","latitude":"25.242684","storage":"7000","district":"Lakhisarai","id":"2270259","warehousetype":"other","longitude":"86.223163"}
+[2026-01-10 13:34:24] district_user -> DCP added ->Sitamarhi@pds| Requested JSON -> {"name":"DCP","latitude":"26.738099","longitude":"85.280534","district":"Sitamarhi","id":"Sitamarhi@pds","demand":"0.00","demand_rice":"0.00"}
+[2026-01-10 13:36:55] district_user -> DCP Edit ->Sitamarhi@pds| Requested JSON -> {"name":"Godown No-08Nigam Godown Bazar Samiti Parisar Bairgania ","uniqueid":"DCP_69620808e68","active":"1","type":"DCP","latitude":"26.738099","longitude":"85.280534","district":"Sitamarhi","id":"Sitamarhi@pds","demand":"0.00","demand_rice":"0.00"}
+[2026-01-10 13:38:40] district_user -> DCP Edit ->Sitamarhi@pds| Requested JSON -> {"name":"Godown No-08Nigam Godown Bazar Samiti Parisar Bairgania ","uniqueid":"DCP_69620808e68","active":"1","type":"DCP","latitude":"26.738099","longitude":"85.280534","district":"Sitamarhi","id":"00","demand":"0.00","demand_rice":"0.00"}
+[2026-01-10 15:57:02] User -> Warehouse InActive -> Gopalganj@pds| 
+[2026-01-10 15:57:33] User -> Warehouse Active -> Gopalganj@pds| 
+[2026-01-10 16:01:34] User -> Warehouse InActive -> Gopalganj@pds| 
+[2026-01-10 16:01:38] User -> Warehouse Active -> Gopalganj@pds| 
+[2026-01-10 16:02:36] User -> Warehouse InActive -> Gopalganj@pds| 
+[2026-01-10 16:02:41] User -> Warehouse Active -> Gopalganj@pds| 
+[2026-01-10 16:07:20] district_user -> Warehouse Edit ->Gopalganj@pds| Requested JSON -> {"name":"TPDS MANJHA","uniqueid":"WH_69145dd92c46","active":"1","type":"motorable","latitude":"26.42721","storage":"5000","district":"Gopalganj","id":"2170214","warehousetype":"swc","longitude":"84.5128"}
+[2026-01-10 16:09:14] User -> DCP Active -> Gopalganj@pds| Godown No-13,Singh Godown,Koini(CMR)Godown
+[2026-01-10 16:09:22] User -> DCP Active -> Gopalganj@pds| Godown No-14,Singh Godown,Koini(CMR)Godown
+[2026-01-10 16:09:27] User -> DCP Active -> Gopalganj@pds| Godown No:-15,Singh Godown,Koien Ke Pass
+[2026-01-10 16:09:31] User -> DCP Active -> Gopalganj@pds| Godown No- 02, Nigam Godown, Manjha Block Parisar
+[2026-01-10 16:09:47] User -> DCP Active -> Gopalganj@pds| Godown No- 06- Biscoman Godown, (135B) Goplaganj
+[2026-01-10 16:09:56] User -> DCP Active -> Gopalganj@pds| Godown No:-20,Shri Krishna Traders ,Aarar Mod Ke Najdik ,Gopalganj
+[2026-01-10 16:10:01] User -> DCP Active -> Gopalganj@pds| Godown No-22,Indarwa Abdullah Pacs Godown,Thawe
+[2026-01-10 16:10:39] User -> DCP Active -> Gopalganj@pds| Godown No- 06- Biscoman Godown, Goplaganj Manikpur Road

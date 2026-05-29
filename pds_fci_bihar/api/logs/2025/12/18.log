@@ -1,0 +1,5 @@
+[2025-12-18 16:37:07] User -> DCP added ->fci@pds| Requested JSON -> {"name":"dfsd","type":"sdd","latitude":"12","longitude":"12","district":"Bishnupur","id":"1","demand":"121","demand_rice":"1232"}
+[2025-12-18 16:39:04] User -> DCP deleted -> fci@pds| Requested JSON -> {"uid":"all"} | all
+[2025-12-18 16:39:39] User -> DCP added ->fci@pds| Requested JSON -> {"name":"ttrr","type":"rrty","latitude":"12","longitude":"12","district":"Bishnupur","id":"1","demand":"121","demand_rice":"122"}
+[2025-12-18 16:40:01] User -> DCP Edit ->fci@pds| Requested JSON -> {"name":"ttrr11","uniqueid":"DCP_6943e0f3f2a","active":"1","type":"rrty","latitude":"12","longitude":"12","district":"Bishnupur","id":"1","demand":"121","demand_rice":"122"}
+[2025-12-18 16:40:15] User -> DCP Edit -> fci@pds| Ttrr11
