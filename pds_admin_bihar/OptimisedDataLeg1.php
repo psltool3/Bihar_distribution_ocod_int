@@ -7,9 +7,13 @@ $query = "SELECT * FROM optimised_table_leg1 ORDER BY last_updated DESC LIMIT 1"
 $result = mysqli_query($con,$query);
 $response = array();
 $id = "";
+$month = "";
+$year = "";
 while($row = mysqli_fetch_array($result))
 {
 	$id= $row["id"];
+	$month = $row["month"];
+	$year = $row["year"];
 }
 
 
@@ -247,6 +251,7 @@ if($currentTimestamp >= $targetTimestamp) {
 							</div>
 							</br></br></br>
                             <!-- END SIMPLE DATATABLE -->
+								<button id="pushToApiButton" class="btn btn-primary pull-right" style="margin-left: 10px; background-color: #5E35B1; border: none; color: white;" type="button" onclick="pushDataToApi()">Push DCP Details</button>
 								<button id="downloadCSV" class="btn btn-warning pull-right" style="margin-left: 10px;" type="button">Download CSV</button>
 								<button id="downloadXLSX" class="btn btn-success pull-right" style="margin-left: 10px;" type="button">Download XLSX</button>
 								<button id="downloadPDF" class="btn btn-danger pull-right" style="margin-left: 10px;" type="button">Download PDF</button>
@@ -768,6 +773,50 @@ if($currentTimestamp >= $targetTimestamp) {
 			var args = Array.prototype.slice.call(arguments, 1);
 			return format.replace(/%(\d+)/g, function(match, index) {
 				return typeof args[index] !== 'undefined' ? args[index] : match;
+			});
+		}
+
+		function pushDataToApi() {
+			var month = "<?php echo $month; ?>";
+			var year = "<?php echo $year; ?>";
+
+			if (!month || !year) {
+				alert("No optimized data available to push.");
+				return;
+			}
+
+			var btn = document.getElementById("pushToApiButton");
+			var originalText = btn.innerHTML;
+			btn.disabled = true;
+			btn.innerHTML = "Pushing data...";
+
+			var dataString = 'month=' + encodeURIComponent(month) + '&year=' + encodeURIComponent(year);
+
+			$.ajax({
+				type: "POST",
+				url: "api/PushDCPDetails.php",
+				data: dataString,
+				cache: false,
+				timeout: 300000,
+				success: function(response) {
+					btn.disabled = false;
+					btn.innerHTML = originalText;
+					try {
+						var res = (typeof response === "string") ? JSON.parse(response) : response;
+						if (res.status === "success") {
+							alert("Data successfully pushed to Coop Online (DCP) API!\nResponse: " + res.message);
+						} else {
+							alert("Error pushing data: " + res.message);
+						}
+					} catch(e) {
+						alert("Unexpected response: " + response);
+					}
+				},
+				error: function(xhr, status, error) {
+					btn.disabled = false;
+					btn.innerHTML = originalText;
+					alert("Request failed: " + error);
+				}
 			});
 		}
     </script>

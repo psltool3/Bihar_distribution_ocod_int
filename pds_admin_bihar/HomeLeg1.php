@@ -436,21 +436,8 @@ require('util/Logger.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="form-group">
-						<div class="col-md-2"></div>
-						<div class="col-md-9">  
-							<div class="input-group" style="width:100%;">					
-							<select class="form-control" id="year" name="year" style="border-radius:5px;font-weight:bold">
-								<option value='' style="font-weight:bold;color:#000;">Select</option>
-								
-							</select>
-							</div>
-							<span class="help-block">Selected Year</span>
-						</div>
-					</div>
-				</div>
 				<input type="hidden" id="username" name="username" value="<?php echo $_SESSION["user"]  ?>" />
+
 				<div class="col-md-3">
 					<div class="form-group">
 						<div class="col-md-2"></div>
@@ -503,6 +490,20 @@ require('util/Logger.php');
 								</div>
 							  </div>
 							<span class="help-block">Applicable Month</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="form-group">
+						<div class="col-md-2"></div>
+						<div class="col-md-9">  
+							<div class="input-group" style="width:100%;">					
+							<select class="form-control" id="year" name="year" style="border-radius:5px;font-weight:bold">
+								<option value='' style="font-weight:bold;color:#000;">Select</option>
+								
+							</select>
+							</div>
+							<span class="help-block">Applicable Year</span>
 						</div>
 					</div>
 				</div>
@@ -694,6 +695,12 @@ require('util/Logger.php');
 							<!-- Table body content -->
 						</tbody>
 					</table>
+					
+					<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+						<button id="pushToApiButton" class="btn btn-primary" style="display: none; font-size: 18px; padding: 10px 24px; font-weight: bold; border-radius: 25px; background-color: #5E35B1; border: none; color: white;" onclick="pushDataToApi()">
+							Push DCP Details to Coop Online for <span id="pushMonthText"></span>
+						</button>
+					</div>
 				
 			</div>
 			&nbsp;<br><br><br>
@@ -1114,6 +1121,9 @@ require('util/Logger.php');
 			toggleButton.classList.add('toggle--off');
 			toggleButton.setAttribute('data-content', 'Off');
 		}
+		if (document.getElementById("pushToApiButton")) {
+			document.getElementById("pushToApiButton").style.display = "none";
+		}
 		currentJobId = null;
 	}
 
@@ -1122,6 +1132,22 @@ require('util/Logger.php');
 				document.getElementById("optimisedtable").style.display = "";
 				document.getElementById("processingPopup").style.display = "none";
 				document.getElementById("cancel-request").style.display = "none";
+				
+				// Show Push to API Button
+				var monthVal = document.getElementById("month").value;
+				var monthNames = {
+					'jan': 'January', 'feb': 'February', 'march': 'March', 'april': 'April',
+					'may': 'May', 'june': 'June', 'july': 'July', 'aug': 'August',
+					'sept': 'September', 'oct': 'October', 'nov': 'November', 'dec': 'December'
+				};
+				var monthNameText = monthNames[monthVal.toLowerCase()] || monthVal;
+				var yearVal = document.getElementById("year").value;
+				if (document.getElementById("pushMonthText")) {
+					document.getElementById("pushMonthText").innerText = monthNameText + " " + yearVal;
+				}
+				if (document.getElementById("pushToApiButton")) {
+					document.getElementById("pushToApiButton").style.display = "inline-block";
+				}
 				
 				
 				var thead = document.createElement("thead");
@@ -1564,6 +1590,49 @@ function showCheckboxes() {
 }
 var firstStart = 0;
 
+function pushDataToApi() {
+	var month = document.getElementById("month").value;
+	var year = document.getElementById("year").value;
+
+	if (!month || !year) {
+		alert("Please select both month and year.");
+		return;
+	}
+
+	var btn = document.getElementById("pushToApiButton");
+	var originalText = btn.innerHTML;
+	btn.disabled = true;
+	btn.innerHTML = "Pushing data...";
+
+	var dataString = 'month=' + encodeURIComponent(month) + '&year=' + encodeURIComponent(year);
+
+	$.ajax({
+		type: "POST",
+		url: "api/PushDCPDetails.php",
+		data: dataString,
+		cache: false,
+		timeout: 300000,
+		success: function(response) {
+			btn.disabled = false;
+			btn.innerHTML = originalText;
+			try {
+				var res = (typeof response === "string") ? JSON.parse(response) : response;
+				if (res.status === "success") {
+					alert("Data successfully pushed to Coop Online (DCP) API!\nResponse: " + res.message);
+				} else {
+					alert("Error pushing data: " + res.message);
+				}
+			} catch(e) {
+				alert("Unexpected response: " + response);
+			}
+		},
+		error: function(xhr, status, error) {
+			btn.disabled = false;
+			btn.innerHTML = originalText;
+			alert("Request failed: " + error);
+		}
+	});
+}
 
 </script>
 </body>

@@ -259,6 +259,7 @@ while($row = mysqli_fetch_array($result))
 								<button class='btn btn-danger pull-right' onClick='rolloutPlan()' type='button' style='margin-left:10px;'>Send to District Verification</button>
 								<button class='btn btn-info pull-right' onClick='acceptAll()' type='button' style='margin-left:10px;'>Accept All</button>
 								<button class='btn btn-primary pull-right' onClick='sendData()' type='button'>Save</button>
+								<button id="pushToSCMLeg2Btn" class='btn btn-success pull-right' onClick='pushToSCMLeg2()' type='button' style='margin-left:10px; background-color:#1a7a1a; border-color:#145c14;'>&#x2191; Push to SCM (Leg2)</button>
 								</br></br>
 								<button id="downloadCSV" class="btn btn-warning pull-right" style="margin-left: 10px;" type="button">Download CSV</button>
 								<button id="downloadXLSX" class="btn btn-success pull-right" style="margin-left: 10px;" type="button">Download XLSX</button>
@@ -294,6 +295,7 @@ while($row = mysqli_fetch_array($result))
 										<th style="font-size:16px">Reason for not Approve</th>
 										<th style="font-size:16px">Suggest Warehouse</th>
 										<th style="font-size:16px">Suggested Warehouse Distance</th>
+										<th style="font-size:16px">Action</th>
 									</tr>
                                  </thead>
 								<tbody id="table_body">
@@ -751,7 +753,8 @@ while($row = mysqli_fetch_array($result))
 										var approve_admin_part = "<td><select class='form-control' onchange='enableDisable(\"" + uniqueid + "\")' id='" + uniqueid_bool + "' name='" + uniqueid_bool + "' required><option value=''>Select</option><option value='yes'>Approve District</option><option value='same'>Keep System Generated</option><option value='no'>Change ID</option></select></td>";
 										uniqueid_array.push(uniqueid_bool);
 									}
-									subpart1 = subpart1 + "<td>" + newid_district + "</td><td>" + reason_district + "</td><td>" + distance_district + approve_district_part + approve_admin_part + admin_reason + newid_admin_part + distance_admin_part + "</tr>";
+									var action_btn = "<td><button class='btn btn-warning' onclick='resetRow(\"" + uniqueid + "\")'>Reset</button></td>";
+									subpart1 = subpart1 + "<td>" + newid_district + "</td><td>" + reason_district + "</td><td>" + distance_district + approve_district_part + approve_admin_part + admin_reason + newid_admin_part + distance_admin_part + action_btn + "</tr>";
 								}
 								$('#table_body').append(subpart1);
 							}
@@ -762,8 +765,23 @@ while($row = mysqli_fetch_array($result))
 						}
 					}
 				});
+		}
+		
+		function resetRow(uniqueid) {
+			if(confirm("Are you sure you want to reset this row's tagging?")) {
+				var month = document.getElementById("month").value;
+				$.ajax({
+					type: "POST",
+					url: "api/ResetRowAdmin.php",
+					data: { uniqueid: uniqueid, month: month },
+					success: function(result) {
+						alert("Row reset successfully");
+						fetchDataFromServerId();
+					}
+				});
 			}
 		}
+
 		
 		function fetchDataFromServer(){
 			var approved = document.getElementById("approved").value;
@@ -977,6 +995,53 @@ while($row = mysqli_fetch_array($result))
 			}
 		});
 		
+		
+		function pushToSCMLeg2() {
+			var monthVal = document.getElementById("month").value;
+			if (!monthVal || monthVal === '') {
+				alert('Please select a Month first before pushing to SCM.');
+				return;
+			}
+			var parts = monthVal.split('_');
+			var mon  = parts[0];
+			var yr   = parts.length > 1 ? parts[1] : '';
+			if (!mon || !yr) {
+				alert('Invalid month/year selection. Please re-select a month from the dropdown.');
+				return;
+			}
+			if (!confirm('Are you sure you want to push Leg-2 optimised data for ' + monthVal + ' to the Bihar SCM portal?')) {
+				return;
+			}
+			var btn = document.getElementById('pushToSCMLeg2Btn');
+			btn.disabled = true;
+			btn.innerHTML = '&#x23F3; Pushing...';
+			$.ajax({
+				type: 'POST',
+				url: 'api/PushRouteOptimizationLeg2.php',
+				data: { month: mon, year: yr },
+				cache: false,
+				timeout: 600000,
+				error: function(xhr, status, error) {
+					btn.disabled = false;
+					btn.innerHTML = '&#x2191; Push to SCM (Leg2)';
+					alert('Request failed: ' + status + ' - ' + error);
+				},
+				success: function(result) {
+					btn.disabled = false;
+					btn.innerHTML = '&#x2191; Push to SCM (Leg2)';
+					try {
+						var res = JSON.parse(result);
+						if (res.status === 'success') {
+							alert('SUCCESS: ' + res.message);
+						} else {
+							alert('ERROR: ' + res.message);
+						}
+					} catch(e) {
+						alert('Unexpected response: ' + result);
+					}
+				}
+			});
+		}
 		
     </script>
     </body>

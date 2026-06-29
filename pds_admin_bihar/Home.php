@@ -433,20 +433,6 @@ require('util/Logger.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="form-group">
-						<div class="col-md-2"></div>
-						<div class="col-md-9">  
-							<div class="input-group" style="width:100%;">					
-							<select class="form-control" id="year" name="year" style="border-radius:5px;font-weight:bold">
-								<option value='' style="font-weight:bold;color:#000;">Select</option>
-								
-							</select>
-							</div>
-							<span class="help-block">Selected Year</span>
-						</div>
-					</div>
-				</div>
 				<input type="hidden" id="username" name="username" value="<?php echo $_SESSION["user"]  ?>" />
 				<div class="col-md-3">
 					<div class="form-group">
@@ -512,6 +498,20 @@ require('util/Logger.php');
 								</div>
 							  </div>
 							<span class="help-block">Applicable Month</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="form-group">
+						<div class="col-md-2"></div>
+						<div class="col-md-9">  
+							<div class="input-group" style="width:100%;">					
+							<select class="form-control" id="year" name="year" style="border-radius:5px;font-weight:bold">
+								<option value='' style="font-weight:bold;color:#000;">Select</option>
+								
+							</select>
+							</div>
+							<span class="help-block">Applicable Year</span>
 						</div>
 					</div>
 				</div>
