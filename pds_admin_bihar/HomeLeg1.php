@@ -1503,10 +1503,10 @@ option.textContent = currentMonthValue;
 dropdown.appendChild(option);
 dropdown.options[1].selected = true;
 
-fetchApplicableMonth(currentMonthValue);
+fetchApplicableMonth(currentMonthValue, currentYear);
 
-function fetchApplicableMonth(month){
-	var datastring = "month=" + month;
+function fetchApplicableMonth(month, year){
+	var datastring = "month=" + month + "&year=" + year;
 	$.ajax({
 		type: "POST",
 		url: "api/fetchTableDataAllMonth.php",
@@ -1556,7 +1556,14 @@ function fetchApplicableMonth(month){
 
 document.getElementById('month').addEventListener('change', function() {
     var selectedMonth = this.value; // Get the selected month value
-	fetchApplicableMonth(selectedMonth);
+    var selectedYear = document.getElementById('year').value; // Get the selected year value
+	fetchApplicableMonth(selectedMonth, selectedYear);
+});
+
+document.getElementById('year').addEventListener('change', function() {
+    var selectedYear = this.value; // Get the selected year value
+    var selectedMonth = document.getElementById('month').value; // Get the selected month value
+	fetchApplicableMonth(selectedMonth, selectedYear);
 });
 
 var dropdown = document.getElementById('year');

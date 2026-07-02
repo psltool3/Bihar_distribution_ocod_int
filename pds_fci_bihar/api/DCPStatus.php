@@ -13,7 +13,7 @@ require('Header.php');
 
 $id = $_POST["uid"];
 
-$query = "SELECT * FROM dcp WHERE uniqueid='$id'";
+$query = "SELECT * FROM fci WHERE uniqueid='$id'";
 $result = mysqli_query($con,$query);
 $numrows = mysqli_num_rows($result);
 
@@ -22,12 +22,12 @@ if($numrows>0){
 	$status = $row['active'];
 	$dcpname = $row['name'];
 	if($status==0){
-		$query = "UPDATE dcp SET active='1' WHERE uniqueid='$id'";
+		$query = "UPDATE fci SET active='1' WHERE uniqueid='$id'";
 		writeLog("User ->" ." DCP Active -> ". $_SESSION['user'] . "| " . $dcpname);
 		mysqli_query($con,$query);
 	}
 	else{
-		$query = "UPDATE dcp SET active='0' WHERE uniqueid='$id'";
+		$query = "UPDATE fci SET active='0' WHERE uniqueid='$id'";
 		writeLog("User ->" ." DCP InActive -> ". $_SESSION['user'] . "| " . $dcpname);
 		mysqli_query($con,$query);
 	}

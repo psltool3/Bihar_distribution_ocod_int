@@ -1031,14 +1031,15 @@ while($row = mysqli_fetch_array($result))
 					btn.disabled = false;
 					btn.innerHTML = '&#x2191; Push to SCM (Leg2)';
 					try {
-						var res = JSON.parse(result);
+						var res = typeof result === 'object' ? result : JSON.parse(result);
 						if (res.status === 'success') {
 							alert('SUCCESS: ' + res.message);
 						} else {
 							alert('ERROR: ' + res.message);
 						}
 					} catch(e) {
-						alert('Unexpected response: ' + result);
+						var errStr = typeof result === 'object' ? JSON.stringify(result) : result;
+						alert('Unexpected response: ' + errStr);
 					}
 				}
 			});

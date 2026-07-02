@@ -15,7 +15,7 @@ $active = "";
 
 if(isset($_POST["uid"])){
 	$uniqueid = $_POST["uid"];
-	$query = "SELECT * FROM dcp WHERE uniqueid='$uniqueid'";
+	$query = "SELECT * FROM fci WHERE uniqueid='$uniqueid'";
 	$result = mysqli_query($con,$query);
 	$numrows = mysqli_num_rows($result);
 	if($numrows!=0){

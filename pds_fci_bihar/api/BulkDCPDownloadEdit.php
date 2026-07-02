@@ -28,7 +28,7 @@ $fileName = "FCIData_" . date('d-m-Y') . ".csv";
 
 $columns = array();
 
-$query = "SHOW COLUMNS FROM dcp";
+$query = "SHOW COLUMNS FROM fci";
 $result = mysqli_query($con,$query);
 $numrows = mysqli_num_rows($result);
 if($numrows>0){
@@ -52,7 +52,7 @@ header('Cache-Control: max-age=0');
 // Render excel data 
 echo $excelDataColumns;
 
-$query = "SELECT * FROM dcp WHERE 1";
+$query = "SELECT * FROM fci WHERE 1";
 $result = mysqli_query($con,$query);
 $numrows = mysqli_num_rows($result);
 if($numrows>0){

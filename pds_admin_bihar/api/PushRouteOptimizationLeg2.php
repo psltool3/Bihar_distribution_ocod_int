@@ -89,6 +89,40 @@ function getCommodityCode($commodityName) {
     return 98;
 }
 
+// Fetch district code mapping
+$districtMap = [];
+$distRes = mysqli_query($con, "SELECT id, name FROM districts");
+if ($distRes) {
+    while ($distRow = mysqli_fetch_assoc($distRes)) {
+        $districtMap[strtolower(trim($distRow['name']))] = $distRow['id'];
+    }
+}
+
+function getDistrictCode($districtName, $districtMap) {
+    $cleanName = strtolower(trim($districtName));
+    if (isset($districtMap[$cleanName])) {
+        return (string)$districtMap[$cleanName];
+    }
+    foreach ($districtMap as $name => $id) {
+        if (strpos($cleanName, $name) !== false || strpos($name, $cleanName) !== false) {
+            return (string)$id;
+        }
+    }
+    return "0";
+}
+
+function getParentDistrictCode($id) {
+    $id = trim((string)$id);
+    if (strlen($id) === 7) {
+        // Warehouse ID: first 3 digits represent district code
+        return substr($id, 0, 3);
+    } elseif (strlen($id) === 12) {
+        // Shop ID: starts with '1' followed by 3-digit district code
+        return substr($id, 1, 3);
+    }
+    return null;
+}
+
 // 3. Query all Leg-2 route rows from the detail table
 $dataQuery  = "SELECT * FROM `$tablename`";
 $dataResult = mysqli_query($con, $dataQuery);
@@ -136,27 +170,39 @@ while ($rowDetail = mysqli_fetch_assoc($dataResult)) {
     $from_id  = isset($rowDetail['from_id'])       ? trim((string)$rowDetail['from_id'])       : '';
     $to_id    = isset($rowDetail['to_id'])         ? trim((string)$rowDetail['to_id'])         : '';
 
+    $from_district_code = getParentDistrictCode($from_id);
+    if ($from_district_code === null) {
+        $from_district_code = getDistrictCode($fromDist, $districtMap);
+    }
+
+    $to_district_code = getParentDistrictCode($to_id);
+    if ($to_district_code === null) {
+        $to_district_code = getDistrictCode($toDist, $districtMap);
+    }
+
     $routeData[] = [
-        "commodity"      => $comm,
-        "commodity_code" => getCommodityCode($comm),
-        "distance"       => isset($rowDetail['distance'])   ? trim((string)$rowDetail['distance'])   : '0',
-        "from"           => isset($rowDetail['from'])       ? trim((string)$rowDetail['from'])       : '',
-        "from_district"  => $fromDist,
-        "from_id"        => $from_id,
-        "from_lat"       => isset($rowDetail['from_lat'])   ? trim((string)$rowDetail['from_lat'])   : '0',
-        "from_long"      => isset($rowDetail['from_long'])  ? trim((string)$rowDetail['from_long'])  : '0',
-        "from_name"      => isset($rowDetail['from_name'])  ? trim((string)$rowDetail['from_name'])  : '',
-        "from_state"     => isset($rowDetail['from_state']) ? str_replace(' ', '_', trim((string)$rowDetail['from_state'])) : 'Bihar',
-        "quantity"       => isset($rowDetail['quantity'])   ? (double)$rowDetail['quantity']         : 0.0,
-        "scenario"       => isset($rowDetail['scenario'])   ? trim((string)$rowDetail['scenario'])   : '',
-        "status"         => !empty($rowDetail['status'])    ? trim((string)$rowDetail['status'])      : 'Implemented',
-        "to"             => isset($rowDetail['to'])         ? trim((string)$rowDetail['to'])         : '',
-        "to_district"    => $toDist,
-        "to_id"          => $to_id,
-        "to_lat"         => isset($rowDetail['to_lat'])     ? trim((string)$rowDetail['to_lat'])     : '0',
-        "to_long"        => isset($rowDetail['to_long'])    ? trim((string)$rowDetail['to_long'])    : '0',
-        "to_name"        => isset($rowDetail['to_name'])    ? trim((string)$rowDetail['to_name'])    : '',
-        "to_state"       => isset($rowDetail['to_state'])   ? str_replace(' ', '_', trim((string)$rowDetail['to_state'])) : 'Bihar',
+        "commodity"          => $comm,
+        "commodity_code"     => getCommodityCode($comm),
+        "distance"           => isset($rowDetail['distance'])   ? trim((string)$rowDetail['distance'])   : '0',
+        "from"               => isset($rowDetail['from'])       ? trim((string)$rowDetail['from'])       : '',
+        "from_district"      => $fromDist,
+        "from_district_code" => $from_district_code,
+        "from_id"            => $from_id,
+        "from_lat"           => isset($rowDetail['from_lat'])   ? trim((string)$rowDetail['from_lat'])   : '0',
+        "from_long"          => isset($rowDetail['from_long'])  ? trim((string)$rowDetail['from_long'])  : '0',
+        "from_name"          => isset($rowDetail['from_name'])  ? trim((string)$rowDetail['from_name'])  : '',
+        "from_state"         => isset($rowDetail['from_state']) ? str_replace(' ', '_', trim((string)$rowDetail['from_state'])) : 'Bihar',
+        "quantity"           => isset($rowDetail['quantity'])   ? (double)$rowDetail['quantity']         : 0.0,
+        "scenario"           => isset($rowDetail['scenario'])   ? trim((string)$rowDetail['scenario'])   : '',
+        "status"             => !empty($rowDetail['status'])    ? trim((string)$rowDetail['status'])      : 'Implemented',
+        "to"                 => isset($rowDetail['to'])         ? trim((string)$rowDetail['to'])         : '',
+        "to_district"        => $toDist,
+        "to_district_code"   => $to_district_code,
+        "to_id"              => $to_id,
+        "to_lat"             => isset($rowDetail['to_lat'])     ? trim((string)$rowDetail['to_lat'])     : '0',
+        "to_long"            => isset($rowDetail['to_long'])    ? trim((string)$rowDetail['to_long'])    : '0',
+        "to_name"            => isset($rowDetail['to_name'])    ? trim((string)$rowDetail['to_name'])    : '',
+        "to_state"           => isset($rowDetail['to_state'])   ? str_replace(' ', '_', trim((string)$rowDetail['to_state'])) : 'Bihar',
     ];
 }
 

@@ -35,11 +35,11 @@ if(password_verify($person->getPassword(), $dbHashedPassword)){
 	$status = $_POST["status"];
 
 	if($status=='active'){
-		$query = "UPDATE dcp SET active='1' WHERE district='$district'";
+		$query = "UPDATE fci SET active='1' WHERE district='$district'";
 		writeLog("User ->" ." DCP Active -> ". $_SESSION['user'] . "| " . $district);
 	}
 	else{
-		$query = "UPDATE dcp SET active='0' WHERE district='$district'";
+		$query = "UPDATE fci SET active='0' WHERE district='$district'";
 		writeLog("User ->" ." DCP InActive -> ". $_SESSION['user'] . "| " . $district);
 	}
 	mysqli_query($con, $query);

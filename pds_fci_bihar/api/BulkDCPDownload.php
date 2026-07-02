@@ -29,7 +29,7 @@ $fileName = "FCITemplate_" . date('d-m-Y') . ".csv";
 
 $columns = array();
 
-$query = "SHOW COLUMNS FROM dcp";
+$query = "SHOW COLUMNS FROM fci";
 $result = mysqli_query($con,$query);
 $numrows = mysqli_num_rows($result);
 if($numrows>0){

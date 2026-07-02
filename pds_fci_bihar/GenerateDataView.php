@@ -1,6 +1,4 @@
 <?php
-ini_set('memory_limit', '1024M');
-set_time_limit(600);
 require('util/Connection.php');
 require('util/SessionCheck.php');
 require 'vendor/autoload.php';
@@ -111,7 +109,7 @@ $data1 = null;
 $query = "SELECT * FROM ".$tablename." WHERE 1";
 $result = mysqli_query($con,$query);
 $numrows = mysqli_num_rows($result);
-while($row = mysqli_fetch_assoc($result))
+while($row = mysqli_fetch_array($result))
 {
 	
 	if($row['new_id_admin']!=null or $row['new_id_admin']!=""){
@@ -153,7 +151,7 @@ if($tablename!=$tablename1){
 	$query = "SELECT * FROM ".$tablename1." WHERE 1";
 	$result = mysqli_query($con,$query);
 	$numrows = mysqli_num_rows($result);
-	while($row = mysqli_fetch_assoc($result))
+	while($row = mysqli_fetch_array($result))
 	{
 		
 		if($row['new_id_admin']!=null or $row['new_id_admin']!=""){
@@ -280,27 +278,29 @@ if($data!=null){
 			$pdf->AddPage();
 			addRow($pdf, $tableData_pdf[0], $colWidth, true); // Add the header again on the new page
 		}
-		$temp = array(
-			"scenario" => $data[$i]["scenario"],
-			"from" => $data[$i]["from"],
-			"from_state" => $data[$i]["from_state"],
-			"from_id" => $data[$i]["from_id"],
-			"from_name" => $data[$i]["from_name"],
-			"from_district" => $data[$i]["from_district"],
-			"from_lat" => $data[$i]["from_lat"],
-			"from_long" => $data[$i]["from_long"],
-			"to" => $data[$i]["to"],
-			"to_state" => $data[$i]["to_state"],
-			"to_id" => $data[$i]["to_id"],
-			"to_name" => $data[$i]["to_name"],
-			"to_district" => $data[$i]["to_district"],
-			"to_lat" => $data[$i]["to_lat"],
-			"to_long" => $data[$i]["to_long"],
-			"commodity" => $data[$i]["commodity"],
-			"quantity" => $data[$i]["quantity"],
-			"distance" => $data[$i]["distance"],
-			"status" => $data[$i]["status"]
-		);
+		$temp = array();
+		
+		for($j=0;$j<count($data[$i]);$j++){
+			$temp["scenario"] = $data[$i]["scenario"];
+			$temp["from"] = $data[$i]["from"];
+			$temp["from_state"] = $data[$i]["from_state"];
+			$temp["from_id"] = $data[$i]["from_id"];
+			$temp["from_name"] = $data[$i]["from_name"];
+			$temp["from_district"] = $data[$i]["from_district"];
+			$temp["from_lat"] = $data[$i]["from_lat"];
+			$temp["from_long"] = $data[$i]["from_long"];
+			$temp["to"] = $data[$i]["to"];
+			$temp["to_state"] = $data[$i]["to_state"];
+			$temp["to_id"] = $data[$i]["to_id"];
+			$temp["to_name"] = $data[$i]["to_name"];
+			$temp["to_district"] = $data[$i]["to_district"];
+			$temp["to_lat"] = $data[$i]["to_lat"];
+			$temp["to_long"] = $data[$i]["to_long"];
+			$temp["commodity"] = $data[$i]["commodity"];
+			$temp["quantity"] = $data[$i]["quantity"];
+			$temp["distance"] = $data[$i]["distance"];
+			$temp["status"] = $data[$i]["status"];
+		}
 		addRow($pdf, $temp, $colWidth);
 	}
 }
@@ -311,27 +311,28 @@ if($data1!=null){
 			$pdf->AddPage();
 			addRow($pdf, $tableData_pdf[0], $colWidth, true); // Add the header again on the new page
 		}
-		$temp = array(
-			"scenario" => $data1[$i]["scenario"],
-			"from" => $data1[$i]["from"],
-			"from_state" => $data1[$i]["from_state"],
-			"from_id" => $data1[$i]["from_id"],
-			"from_name" => $data1[$i]["from_name"],
-			"from_district" => $data1[$i]["from_district"],
-			"from_lat" => $data1[$i]["from_lat"],
-			"from_long" => $data1[$i]["from_long"],
-			"to" => $data1[$i]["to"],
-			"to_state" => $data1[$i]["to_state"],
-			"to_id" => $data1[$i]["to_id"],
-			"to_name" => $data1[$i]["to_name"],
-			"to_district" => $data1[$i]["to_district"],
-			"to_lat" => $data1[$i]["to_lat"],
-			"to_long" => $data1[$i]["to_long"],
-			"commodity" => $data1[$i]["commodity"],
-			"quantity" => $data1[$i]["quantity"],
-			"distance" => $data1[$i]["distance"],
-			"status" => $data1[$i]["status"]
-		);
+		$temp = array();
+		for($j=0;$j<count($data1[$i]);$j++){
+			$temp["scenario"] = $data1[$i]["scenario"];
+			$temp["from"] = $data1[$i]["from"];
+			$temp["from_state"] = $data1[$i]["from_state"];
+			$temp["from_id"] = $data1[$i]["from_id"];
+			$temp["from_name"] = $data1[$i]["from_name"];
+			$temp["from_district"] = $data1[$i]["from_district"];
+			$temp["from_lat"] = $data1[$i]["from_lat"];
+			$temp["from_long"] = $data1[$i]["from_long"];
+			$temp["to"] = $data1[$i]["to"];
+			$temp["to_state"] = $data1[$i]["to_state"];
+			$temp["to_id"] = $data1[$i]["to_id"];
+			$temp["to_name"] = $data1[$i]["to_name"];
+			$temp["to_district"] = $data1[$i]["to_district"];
+			$temp["to_lat"] = $data1[$i]["to_lat"];
+			$temp["to_long"] = $data1[$i]["to_long"];
+			$temp["commodity"] = $data1[$i]["commodity"];
+			$temp["quantity"] = $data1[$i]["quantity"];
+			$temp["distance"] = $data1[$i]["distance"];
+			$temp["status"] = $data1[$i]["status"];
+		}
 		addRow($pdf, $temp, $colWidth);
 	}
 }

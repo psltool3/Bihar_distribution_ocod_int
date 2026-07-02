@@ -4,7 +4,7 @@ require('../util/Connection.php');
 
 $district = $_POST['district'];
 
-$query = "SELECT * FROM dcp WHERE district='$district'";
+$query = "SELECT * FROM fci WHERE district='$district'";
 $result = mysqli_query($con,$query);
 $numrows = mysqli_num_rows($result);
 

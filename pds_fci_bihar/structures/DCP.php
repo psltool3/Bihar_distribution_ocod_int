@@ -97,41 +97,41 @@ class DCP {
     }
 	
 	function insert(DCP $dcp){
-        return "INSERT INTO dcp (district, name, id, type, latitude, longitude, demand,demand_rice, uniqueid, active) VALUES ('".$dcp->getDistrict()."','".$dcp->getName()."','".$dcp->getId()."','".$dcp->getType()."','".$dcp->getLatitude()."','".$dcp->getLongitude()."','".$dcp->getDemand()."','".$dcp->getDemandrice()."','".$dcp->getUniqueid()."','".$dcp->getActive()."')";
+        return "INSERT INTO fci (district, name, id, type, latitude, longitude, demand,demand_rice, uniqueid, active) VALUES ('".$dcp->getDistrict()."','".$dcp->getName()."','".$dcp->getId()."','".$dcp->getType()."','".$dcp->getLatitude()."','".$dcp->getLongitude()."','".$dcp->getDemand()."','".$dcp->getDemandrice()."','".$dcp->getUniqueid()."','".$dcp->getActive()."')";
     }
 
     function delete(DCP $dcp){
-        return "DELETE FROM dcp WHERE uniqueid='".$dcp->getUniqueid()."'";
+        return "DELETE FROM fci WHERE uniqueid='".$dcp->getUniqueid()."'";
     }
 	
 	function deleteall(DCP $dcp){
-        return "DELETE FROM dcp WHERE 1";
+        return "DELETE FROM fci WHERE 1";
     }
 	
 	function logname(DCP $dcp){
 
-        return "SELECT name FROM dcp WHERE uniqueid='".$dcp->getUniqueid()."'";
+        return "SELECT name FROM fci WHERE uniqueid='".$dcp->getUniqueid()."'";
 
     }
 	
 	function check(DCP $dcp){
-        return "SELECT * FROM dcp WHERE uniqueid='".$dcp->getUniqueid()."'";
+        return "SELECT * FROM fci WHERE uniqueid='".$dcp->getUniqueid()."'";
     }
 	
 	function checkEdit(DCP $dcp){
-        return "SELECT * FROM dcp WHERE LOWER(id)=LOWER('".$dcp->getId()."')";
+        return "SELECT * FROM fci WHERE LOWER(id)=LOWER('".$dcp->getId()."')";
     }
 	
 	function checkInsert(DCP $dcp){
-        return "SELECT * FROM dcp WHERE LOWER(id)=LOWER('".$dcp->getId()."')";
+        return "SELECT * FROM fci WHERE LOWER(id)=LOWER('".$dcp->getId()."')";
     }
 
     function update(DCP $dcp){
-     return  "UPDATE dcp SET district = '".$dcp->getDistrict()."',name = '".$dcp->getName()."',id = '".$dcp->getId()."',type = '".$dcp->getType()."',latitude = '".$dcp->getLatitude()."',longitude = '".$dcp->getLongitude()."',demand = '".$dcp->getDemand()."',demand_rice = '".$dcp->getDemandrice()."' WHERE uniqueid = '".$dcp->getUniqueid()."'";
+     return  "UPDATE fci SET district = '".$dcp->getDistrict()."',name = '".$dcp->getName()."',id = '".$dcp->getId()."',type = '".$dcp->getType()."',latitude = '".$dcp->getLatitude()."',longitude = '".$dcp->getLongitude()."',demand = '".$dcp->getDemand()."',demand_rice = '".$dcp->getDemandrice()."' WHERE uniqueid = '".$dcp->getUniqueid()."'";
     }
 	
 	function updateEdit(DCP $dcp){
-      return  "UPDATE dcp SET district = '".$dcp->getDistrict()."',name = '".$dcp->getName()."',id = '".$dcp->getId()."',type = '".$dcp->getType()."',latitude = '".$dcp->getLatitude()."',longitude = '".$dcp->getLongitude()."',demand = '".$dcp->getDemand()."',demand_rice = '".$dcp->getDemandrice()."' WHERE id = '".$dcp->getId()."'";
+      return  "UPDATE fci SET district = '".$dcp->getDistrict()."',name = '".$dcp->getName()."',id = '".$dcp->getId()."',type = '".$dcp->getType()."',latitude = '".$dcp->getLatitude()."',longitude = '".$dcp->getLongitude()."',demand = '".$dcp->getDemand()."',demand_rice = '".$dcp->getDemandrice()."' WHERE id = '".$dcp->getId()."'";
     }
 }  
 
