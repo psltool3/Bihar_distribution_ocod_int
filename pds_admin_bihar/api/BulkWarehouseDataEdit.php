@@ -149,7 +149,7 @@ try{
 					$Warehouse->setLatitude($column[$latitude]);
 					$Warehouse->setLongitude($column[$longitude]);
 					$Warehouse->setName($column[$name]);
-					$Warehouse->set($column[$id]);
+					$Warehouse->setId($column[$id]);
 					$Warehouse->setType($column[$type]);
 					$Warehouse->setStorage($column[$storage]);
 					$Warehouse->setWarehousetype($column[$warehousetype]);

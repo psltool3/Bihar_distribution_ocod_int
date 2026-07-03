@@ -1,0 +1,23 @@
+[2026-07-03 15:09:35] User -> District Name Edit->admin@pds| Requested JSON -> {"name":"Arariaf","uid":"66a4b097c33a0"}
+[2026-07-03 15:09:48] User -> District Name Edit->admin@pds| Requested JSON -> {"name":"Araria","uid":"66a4b097c33a0"}
+[2026-07-03 15:13:43] User -> District Name Edit->admin@pds| Requested JSON -> {"name":"Arariaf","uid":"66a4b097c33a0"}
+[2026-07-03 15:13:57] User -> District Name Edit->admin@pds| Requested JSON -> {"name":"Araria","uid":"66a4b097c33a0"}
+[2026-07-03 15:23:43] User -> DCP added ->admin@pds| Requested JSON -> {"name":"li","type":"k","latitude":"12","longitude":"50","district":"Araria","id":"9722","demand":"2400","demand_rice":"2500"}
+[2026-07-03 15:24:00] User -> DCP deleted -> admin@pds| Requested JSON -> {"uid":"DCP_6a4786a7ad7"} | Li
+[2026-07-03 15:47:44] User -> DCP InActive -> admin@pds| Araria
+[2026-07-03 15:47:57] User -> DCP Active -> admin@pds| Araria
+[2026-07-03 15:56:03] User -> FPS Data Edit->admin@pds| Requested JSON -> {"name":"120900100001","uniqueid":"FPS_6a365336a2b","active":"1","type":"Model FPS","latitude":"26.1375833","longitude":"87.4083666","district":"Araria","id":"120900100001","demand":"44.2","demand_rice":"89745"}
+[2026-07-03 17:19:29] User -> Reset Admin Data -> admin@pds | 2090130 - 120900100012 - Rice
+[2026-07-03 17:19:35] User -> Save Data | approve admin change yes ->admin@pds| 2090130 - 120900100012 - Rice
+[2026-07-03 17:35:33] User -> Model FPS Active -> admin@pds| Araria
+[2026-07-03 17:35:38] User -> FPS Active -> admin@pds| 1.21E+11
+[2026-07-03 17:36:09] User -> Normal FPS Active -> admin@pds| Araria
+[2026-07-03 17:36:34] User -> FPS Active -> admin@pds| Pds
+[2026-07-03 17:36:35] User -> FPS Active -> admin@pds| 1.21E+11
+[2026-07-03 17:36:41] User -> FPS Active -> admin@pds| 1.21E+11
+[2026-07-03 17:36:42] User -> FPS Active -> admin@pds| 1.21E+11
+[2026-07-03 17:36:43] User -> FPS Active -> admin@pds| 1.21E+11
+[2026-07-03 17:36:44] User -> FPS Active -> admin@pds| 1.21E+11
+[2026-07-03 17:37:13] User -> DCP Active -> admin@pds| Godown No10Nigam Godown TPDS
+[2026-07-03 17:37:14] User -> DCP Active -> admin@pds| Godown No17 Narpatganj Vyaparmandal Godown Narpatganj Araria
+[2026-07-03 17:37:17] User -> DCP Active -> admin@pds| Godown No16 Biscoman Godown Araria

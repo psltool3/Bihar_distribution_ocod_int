@@ -170,7 +170,7 @@ else{
                                                 <div class="col-md-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><span class="fa fa-info"></span></span>
-                                                        <input type="text" class="form-control" id="id" name="id" value="<?php echo $id ?>" required />
+                                                        <input type="text" class="form-control" id="id" name="id" value="<?php echo $id ?>" oninput="this.value = this.value.replace(/[^a-zA-Z0-9 ]/g, '')" required />
                                                     </div>
                                                     <span class="help-block">Warehouse ID</span>
                                                 </div>
@@ -315,7 +315,47 @@ else{
                 alert('Please enter all fields');
                 return false;
             }
-			
+            if (!/^[a-zA-Z0-9 ]+$/.test(id)) {
+                alert('ID must contain only numbers, alphabets, and spaces.');
+                return false;
+            }
+            var urlRegex = /https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic)\b/i;
+            if (urlRegex.test(name)) {
+                alert('Name cannot contain links or URLs.');
+                return false;
+            }
+            if (urlRegex.test(id)) {
+                alert('ID cannot contain links or URLs.');
+                return false;
+            }
+            var safeTextRegex = /^[a-zA-Z0-9_ \-()\/.]*$/;
+            if (!safeTextRegex.test(name)) {
+                alert('Name can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            if (!safeTextRegex.test(type)) {
+                alert('Type can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            if (district !== '' && !safeTextRegex.test(district)) {
+                alert('District can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            var lat = parseFloat(latitude);
+            var lng = parseFloat(longitude);
+            if (isNaN(lat) || latitude.trim() === '' || lat < -90 || lat > 90) {
+                alert('Latitude must be a valid number between -90 and 90.');
+                return false;
+            }
+            if (isNaN(lng) || longitude.trim() === '' || lng < -180 || lng > 180) {
+                alert('Longitude must be a valid number between -180 and 180.');
+                return false;
+            }
+            if (isNaN(parseFloat(storage)) || storage.trim() === '') {
+                alert('Storage capacity must be a valid number.');
+                return false;
+            }
+            
             document.getElementById('popup').style.display = 'block';
         }
 		

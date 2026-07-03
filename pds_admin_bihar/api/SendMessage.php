@@ -48,10 +48,10 @@ $date = date('Y-m-d H:i:s');
 if($uniqueid=="all"){
 	$query = "SELECT uid FROM login WHERE role!='admin'";
 	$result = mysqli_query($con,$query);
-	while($row = mysqli_fetch_assoc($result)){
-		$uniqueid = $row['uid'];
+	while($row_user = mysqli_fetch_assoc($result)){
+		$recipient_uid = $row_user['uid'];
 		$id = generateRandomId(10);
-		$query = "INSERT INTO user_message (id,user_id,message,date,acknowledged) VALUES ('$id','$uniqueid','$message','$date','no')";
+		$query = "INSERT INTO user_message (id,user_id,message,date,acknowledged) VALUES ('$id','$recipient_uid','$message','$date','no')";
 		mysqli_query($con, $query);
 	}
 }
@@ -61,10 +61,13 @@ else{
 	mysqli_query($con, $query);
 }
 
-$log_query = "select username  from login WHERE uid='$user_id'";
-$log_result = mysqli_query($con,$log_query);
-if ($log_result && $row = $log_result->fetch_assoc()) {
-	$log_name =  $row['username'];
+$log_name = "All Users";
+if ($uniqueid != "all") {
+	$log_query = "select username  from login WHERE uid='$uniqueid'";
+	$log_result = mysqli_query($con,$log_query);
+	if ($log_result && $row_user = $log_result->fetch_assoc()) {
+		$log_name =  $row_user['username'];
+	}
 }
 
 

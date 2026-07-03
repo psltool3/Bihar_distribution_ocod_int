@@ -133,7 +133,7 @@ class FPS {
     }
 	
 	function updateEdit(FPS $fps){
-      return  "UPDATE fps SET district = '".$fps->getDistrict()."',name = '".$fps->getName()."',id = '".$fps->getId()."',type = '".$fps->getType()."',latitude = '".$fps->getLatitude()."',longitude = '".$fps->getLongitude()."',demand = '".$fps->getDemand()."',demand_rice = '".$fps->getDemandrice()."' WHERE id = '".$fps->getId()."'";
+      return  "UPDATE fps SET district = '".$fps->getDistrict()."',name = '".$fps->getName()."',id = '".$fps->getId()."',type = '".$fps->getType()."',latitude = '".$fps->getLatitude()."',longitude = '".$fps->getLongitude()."',demand = '".$fps->getDemand()."',demand_rice = '".$fps->getDemandrice()."',active = '".$fps->getActive()."' WHERE id = '".$fps->getId()."'";
     }
 }  
 

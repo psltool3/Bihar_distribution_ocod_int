@@ -179,6 +179,15 @@ if($numrows!=0)
                 alert('Please enter all fields');
                 return false;
             }
+            if (!/^[a-zA-Z ]+$/.test(name)) {
+                alert('District Name contains invalid characters. Only letters and spaces are allowed.');
+                return false;
+            }
+            var urlRegex = /https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic)\b/i;
+            if (urlRegex.test(name)) {
+                alert('District Name cannot contain links or URLs.');
+                return false;
+            }
 			
             document.getElementById('popup').style.display = 'block';
         }

@@ -19,6 +19,7 @@ $numrows = mysqli_num_rows($result);
 if($numrows>0){
 	$row = mysqli_fetch_assoc($result);
 	$status = $row['active'];
+	$fpsname = $row['name'];
 	if($status==0){
 		$query = "UPDATE fps SET active='1' WHERE uniqueid='$id'";
 		writeLog("District User ->" ." FPS Active -> ". $_SESSION['district_user'] . "| " . $fpsname);

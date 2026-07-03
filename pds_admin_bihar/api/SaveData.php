@@ -19,11 +19,7 @@ while($row = mysqli_fetch_array($result))
 }
 
 $tablename = "optimiseddata_".$id;
-echo $tablename;
-echo "</br>";
 foreach ($_POST as $key => $value) {
-	echo $value;
-	echo "</br>";
 	if (substr($key, -8) === '_approve'){
 		$parts = explode("_", $key,3);
 		$fromid = $parts[0];
@@ -41,7 +37,6 @@ foreach ($_POST as $key => $value) {
 			writeLog("User ->" ." Save Data | approve district change no ->". $_SESSION['user'] . "| " . $fromid . " - " . $toid . " - ". $commodity);
 		}
 		mysqli_query($con,$query);
-		echo $query;
 	}	
 	if (substr($key, -11) === '_iddistance' or substr($key, -9) === '_idreason' or substr($key, -8) === '_approve' or $value===""){
 		continue;

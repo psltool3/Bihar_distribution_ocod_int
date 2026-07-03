@@ -131,7 +131,7 @@ class DCP {
     }
 	
 	function updateEdit(DCP $dcp){
-      return  "UPDATE dcp SET district = '".$dcp->getDistrict()."',name = '".$dcp->getName()."',id = '".$dcp->getId()."',type = '".$dcp->getType()."',latitude = '".$dcp->getLatitude()."',longitude = '".$dcp->getLongitude()."',demand = '".$dcp->getDemand()."',demand_rice = '".$dcp->getDemandrice()."' WHERE id = '".$dcp->getId()."'";
+      return  "UPDATE dcp SET district = '".$dcp->getDistrict()."',name = '".$dcp->getName()."',id = '".$dcp->getId()."',type = '".$dcp->getType()."',latitude = '".$dcp->getLatitude()."',longitude = '".$dcp->getLongitude()."',demand = '".$dcp->getDemand()."',demand_rice = '".$dcp->getDemandrice()."',active = '".$dcp->getActive()."' WHERE id = '".$dcp->getId()."'";
     }
 }  
 

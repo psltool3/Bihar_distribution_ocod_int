@@ -97,15 +97,8 @@ if (isset($_GET['format'])) {
             $spreadsheet = new Spreadsheet();
             $sheet = $spreadsheet->getActiveSheet();
 
-            // Set column names as the first row
-            $columnIndex = 1;
-            foreach ($columns as $columnName) {
-                $sheet->setCellValueByColumnAndRow($columnIndex, 1, $columnName);
-                $columnIndex++;
-            }
-
-            // Insert data tableData
-            $rowIndex = 2;
+            // Insert data tableData (first row in $tableData is already the header row)
+            $rowIndex = 1;
             foreach ($tableData as $rowData) {
                 $columnIndex = 1;
                 foreach ($rowData as $value) {

@@ -120,6 +120,7 @@ if ($result && $result->num_rows > 0) {
 		$data[] = $row;
 	}
 
+	$warehouse = array();
 	$query_warehouse = "SELECT id from warehouse WHERE active='1'";
 	$result_warehouse = mysqli_query($con,$query_warehouse);
 	while($row_warehouse = mysqli_fetch_assoc($result_warehouse)){

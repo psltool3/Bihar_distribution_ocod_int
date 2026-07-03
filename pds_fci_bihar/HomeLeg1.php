@@ -411,7 +411,7 @@ require('util/Logger.php');
 			<div class="panel panel-default">
 				<div class="panel-heading" style="text-align: center;">
 					<h1 style="font-weight: bold; color: #335566;">Bihar PDS Route Optimisation</h1>
-					<h1 style="font-weight: bold; color: #FF6666;">Kindly Optimised the Leg1-FCI to Warehouse</h1>
+					<h1 style="font-weight: bold; color: #FF6666;">Kindly Optimised the Leg1-FCI to TPDS</h1>
 
 				</div>
 			</div>

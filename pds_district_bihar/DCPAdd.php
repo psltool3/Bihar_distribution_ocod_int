@@ -111,7 +111,7 @@ $district = ucfirst($_SESSION["district_district"]);
                                                 <div class="col-md-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><span class="fa fa-info"></span></span>
-                                                        <input type="text" class="form-control" id="id" name="id" required />
+                                                        <input type="text" class="form-control" id="id" name="id" oninput="this.value = this.value.replace(/[^a-zA-Z0-9 ]/g, '')" required />
                                                     </div>
                                                     <span class="help-block">DCP ID</span>
                                                 </div>
@@ -229,11 +229,47 @@ $district = ucfirst($_SESSION["district_district"]);
             var longitude = document.getElementById('longitude').value;
 			var id = document.getElementById('id').value;
             var demand = document.getElementById('demand').value;
-			var demand = document.getElementById('demand_rice').value;
+			var demand_rice = document.getElementById('demand_rice').value;
             var district = document.getElementById('district').value;
 
-            if (name === '' || type === '' || latitude === '' || longitude === '' || id === '' || demand === '' ||demand_rice === '' || district === '') {
+            if (name === '' || type === '' || latitude === '' || longitude === '' || id === '' || demand === '' || demand_rice === '' || district === '') {
                 alert('Please enter all fields');
+                return false;
+            }
+            if (!/^[a-zA-Z0-9 ]+$/.test(id)) {
+                alert('ID must contain only numbers, alphabets, and spaces.');
+                return false;
+            }
+            var urlRegex = /https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic)\b/i;
+            if (urlRegex.test(name)) {
+                alert('Name cannot contain links or URLs.');
+                return false;
+            }
+            if (urlRegex.test(id)) {
+                alert('ID cannot contain links or URLs.');
+                return false;
+            }
+            var safeTextRegex = /^[a-zA-Z0-9_ \-()\/.]*$/;
+            if (!safeTextRegex.test(name)) {
+                alert('Name can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            if (!safeTextRegex.test(type)) {
+                alert('Type can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            if (district !== '' && !safeTextRegex.test(district)) {
+                alert('District can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            var lat = parseFloat(latitude);
+            var lng = parseFloat(longitude);
+            if (isNaN(lat) || latitude.trim() === '' || lat < -90 || lat > 90) {
+                alert('Latitude must be a valid number between -90 and 90.');
+                return false;
+            }
+            if (isNaN(lng) || longitude.trim() === '' || lng < -180 || lng > 180) {
+                alert('Longitude must be a valid number between -180 and 180.');
                 return false;
             }
 			

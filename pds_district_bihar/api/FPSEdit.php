@@ -76,12 +76,37 @@ if(!isStringNumber($_POST["demand_rice"])){
 
 $dbHashedPassword = $row['password'];
 if(password_verify($person->getPassword(), $dbHashedPassword)){
+if(!preg_match('/^[a-zA-Z0-9 ]+$/', $_POST["id"])){
+	echo "Error : ID must contain only numbers, alphabets, and spaces";
+	exit();
+}
+$urlPattern = '/https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic)\b/i';
+if(preg_match($urlPattern, $_POST["name"])){
+	echo "Error : Name cannot contain links or URLs";
+	exit();
+}
+if(preg_match($urlPattern, $_POST["id"])){
+	echo "Error : ID cannot contain links or URLs";
+	exit();
+}
+if(!preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["name"])){
+	echo "Error : Name can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _)";
+	exit();
+}
+if(!preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["type"])){
+	echo "Error : Type can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _)";
+	exit();
+}
+if(isset($_POST["district"]) && !preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["district"])){
+	echo "Error : District can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _)";
+	exit();
+}
 $district = formatName($_POST["district"]);
 $latitude = $_POST["latitude"];
 $longitude = $_POST["longitude"];
 $name = formatName($_POST["name"]);
 $id = $_POST["id"];
-$type = $_POST["type"];
+$type = formatName($_POST["type"]);
 $demand = $_POST["demand"];
 $demand_rice = $_POST["demand_rice"];
 $uniqueid = $_POST["uniqueid"];

@@ -110,7 +110,7 @@ require('Header.php');
                                                 <div class="col-md-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><span class="fa fa-info"></span></span>
-                                                        <input type="text" class="form-control" id="id" name="id" required />
+                                                        <input type="text" class="form-control" id="id" name="id" oninput="this.value = this.value.replace(/[^a-zA-Z0-9 ]/g, '')" required />
                                                     </div>
                                                     <span class="help-block">Warehouse ID</span>
                                                 </div>
@@ -252,6 +252,32 @@ require('Header.php');
 
             if (name === '' || type === '' || latitude === '' || longitude === '' || id === '' || storage === '' || district === '' || warehousetype === '') {
                 alert('Please enter all fields');
+                return false;
+            }
+            if (!/^[a-zA-Z0-9 ]+$/.test(id)) {
+                alert('ID must contain only numbers, alphabets, and spaces.');
+                return false;
+            }
+            var urlRegex = /https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic)\b/i;
+            if (urlRegex.test(name)) {
+                alert('Name cannot contain links or URLs.');
+                return false;
+            }
+            if (urlRegex.test(id)) {
+                alert('ID cannot contain links or URLs.');
+                return false;
+            }
+            var safeTextRegex = /^[a-zA-Z0-9_ \-()\/.]*$/;
+            if (!safeTextRegex.test(name)) {
+                alert('Name can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            if (!safeTextRegex.test(type)) {
+                alert('Type can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
+                return false;
+            }
+            if (district !== '' && !safeTextRegex.test(district)) {
+                alert('District can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _).');
                 return false;
             }
 			

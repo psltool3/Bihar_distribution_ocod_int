@@ -13,7 +13,7 @@ if(!SessionCheck()){
 	return;
 }
 
-require('Header.php');
+// require('Header.php');
 
 
 function formatName($name) {

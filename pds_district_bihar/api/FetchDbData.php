@@ -112,6 +112,7 @@ while($row = mysqli_fetch_array($result))
 	$data[] = $row;
 }
 
+$warehouse = array();
 $query_warehouse = "SELECT * from warehouse WHERE district='$district' ";
 $result_warehouse = mysqli_query($con,$query_warehouse);
 while($row_warehouse = mysqli_fetch_array($result_warehouse)){
