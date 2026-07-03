@@ -423,12 +423,9 @@ require('util/Logger.php');
 						<div class="col-md-9">  
 							<div class="input-group" style="width:100%;">					
 							<select class="form-control" id="type" name="type" style="border-radius:5px;font-weight:bold">
-								<option value='' style="font-weight:bold;color:#000;">Select</option>
-								<option value='rice_fci_wheat_fci' style="font-weight:bold;color:#000;">Rice - FCI-Wheat - FCI</option>
-								<option value='rice_dcp_wheat_dcp' style="font-weight:bold;color:#000;">Rice - DCP-Wheat - DCP</option>
-								<option value='rice_dcp_wheat_fci' style="font-weight:bold;color:#000;">Rice - DCP-Wheat - FCI</option>
-								<option value='rice_dcp_wheat_fci_dcp' style="font-weight:bold;color:#000;">Rice - DCP-Wheat - FCI-DCP</option>
-								<option value='rice_fci_dcp_wheat_fci_dcp' style="font-weight:bold;color:#000;">Rice - DCP-FCI-Wheat - FCI-DCP</option>
+								
+								<option value='inter' style="font-weight:bold;color:#000;">Inter</option>
+								
 								<!--<option value='intra' style="font-weight:bold;color:#000;">Intra District</option>-->
 							</select>
 							</div>
