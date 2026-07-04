@@ -281,11 +281,11 @@
       "WH_District": "Araria",
       "WH_Name": "Godown No 03  Nigam Godown Bazar Samiti Forbisganj",
       "WH_ID": 218,
-      "Type of WH": "DCP",
+      "Type of WH": "Dcp",
       "WH_Lat": 26.3124,
       "WH_Long": 87.2554,
-      "Procurement Rice": 9127.04,
-      "Procurement Wheat": 0.0,
+      "Procurement Rice": 9000000.0,
+      "Procurement Wheat": 9000000.0,
       "quantity of Wheat stored (Quintals)": 0
     },
     {

@@ -424,7 +424,7 @@ require('util/Logger.php');
 							<div class="input-group" style="width:100%;">					
 							<select class="form-control" id="type" name="type" style="border-radius:5px;font-weight:bold">
 								
-								<option value='inter' style="font-weight:bold;color:#000;">Inter</option>
+								<option value='intra1' style="font-weight:bold;color:#000;">Inter</option>
 								
 								<!--<option value='intra' style="font-weight:bold;color:#000;">Intra District</option>-->
 							</select>
