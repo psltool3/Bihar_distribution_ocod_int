@@ -144,6 +144,18 @@ try{
 						echo "</br>";
 						$redirect = 0;
 					}
+					$urlPattern = '/https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic|png|jpg|jpeg|gif|html|php)\b|href|src|<a|&lt;a|<\/a>|&lt;\/a>|<img|&lt;img/i';
+					$specialCharPattern = '/[<>"\'\\\\]/';
+					if(
+						preg_match($urlPattern, $column[$name]) || preg_match($specialCharPattern, $column[$name]) || !preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $column[$name]) ||
+						preg_match($urlPattern, $column[$type]) || preg_match($specialCharPattern, $column[$type]) || !preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $column[$type]) ||
+						preg_match($urlPattern, $column[$id]) || preg_match($specialCharPattern, $column[$id]) || !preg_match('/^[a-zA-Z0-9 ]+$/', $column[$id]) ||
+						preg_match($urlPattern, $column[$district]) || preg_match($specialCharPattern, $column[$district]) || !preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $column[$district])
+					){
+						echo "Error : No special characters allowed. Row: " . ($i + 1);
+						echo "</br>";
+						$redirect = 0;
+					}
 					$DCP = new DCP;
 					filterData($column[$district]);
 					filterData($column[$latitude]);

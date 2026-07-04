@@ -668,7 +668,7 @@ require('util/Logger.php');
 						<thead>
 							<tr>
 								<th>Scenario</th>
-								<th>WH_Used</th>
+								<th>TPDS_Used</th>
 								<th>FPS_Used</th>
 								<th>Total_Allocation</th>
 								<th>Total_QKM</th>

@@ -1,0 +1,10 @@
+[2026-07-04 13:08:56] User -> District Name Edit->admin@pds| Requested JSON -> {"name":"Arariaf","uid":"66a4b097c33a0"}
+[2026-07-04 13:09:07] User -> District Name Edit->admin@pds| Requested JSON -> {"name":"Araria","uid":"66a4b097c33a0"}
+[2026-07-04 13:32:07] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"FciN@123","district":"fci","newpassword":"FciN@123"} | FciN@123
+[2026-07-04 13:59:32] User -> Delete User ->admin@pds| Requested JSON -> {"uid":"67a4502f73a3a"} | Banka@pds
+[2026-07-04 14:00:03] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"Banka@pds","district":"Banka","newpassword":"Banka@pds"} | Banka@pds
+[2026-07-04 14:02:29] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"Araria1@pds","district":"Araria","newpassword":"Araria1@pds"} | Araria1@pds
+[2026-07-04 14:08:02] User -> Reset Admin Data -> admin@pds | 2090130 - 120900100002 - Wheat
+[2026-07-04 14:08:14] User -> Save Data | approve admin change yes ->admin@pds| 2090130 - 120900100002 - Wheat
+[2026-07-04 14:10:34] User -> DCP Edit ->admin@pds| Requested JSON -> {"name":"Godown No 01 Nigam Godown Bazar Samiti Araria","uniqueid":"DCP_6a489932840","active":"1","type":"DCP","latitude":"26.1321","longitude":"87.4542","district":"Araria","id":"216","demand":"24170.76","demand_rice":"1000"}
+[2026-07-04 14:21:55] User -> DCP Edit ->admin@pds| Requested JSON -> {"name":"Godown No 02 Nigam Godown Bazar Samiti Forbisganj","uniqueid":"DCP_6a48993284c","active":"1","type":"DCP","latitude":"26.3123","longitude":"87.2569","district":"Araria","id":"217","demand":"9699.13","demand_rice":"93333"}

@@ -843,7 +843,7 @@ require('util/Logger.php');
 
 	// Initial data for the chart
 	var initialData = {
-		labels: ['Amritsar', 'Jalandhar', 'Bathinda', 'Ludhiana', 'Fazilka'],
+		labels: ['Araria', 'Arwal', 'Banka', 'Bhagalpur', 'Muzaffarpur'],
 		datasets: [{
 			label: 'Supply',
 			backgroundColor: '#1640D6',

@@ -246,13 +246,21 @@ require('Header.php');
                 alert('ID must contain only numbers, alphabets, and spaces.');
                 return false;
             }
-            var urlRegex = /https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic)\b/i;
+            var urlRegex = /https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic|png|jpg|jpeg|gif|html|php)\b|href|src|<a|<\/a>|<img/i;
             if (urlRegex.test(name)) {
-                alert('Name cannot contain links or URLs.');
+                alert('Name cannot contain links, URLs, or HTML elements.');
+                return false;
+            }
+            if (urlRegex.test(type)) {
+                alert('Type cannot contain links, URLs, or HTML elements.');
                 return false;
             }
             if (urlRegex.test(id)) {
-                alert('ID cannot contain links or URLs.');
+                alert('ID cannot contain links, URLs, or HTML elements.');
+                return false;
+            }
+            if (district !== '' && urlRegex.test(district)) {
+                alert('District cannot contain links, URLs, or HTML elements.');
                 return false;
             }
             var safeTextRegex = /^[a-zA-Z0-9_ \-()\/.]*$/;

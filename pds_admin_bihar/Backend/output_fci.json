@@ -2,107 +2,251 @@
   "status": 1,
   "data": [
     {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
       "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
-      "commodity": "Wheat",
-      "quantity": "44.2"
-    },
-    {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
-      "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
-      "commodity": "Wheat",
-      "quantity": "44.2"
-    },
-    {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
-      "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
+      "from lat": "26.132113",
+      "from long": "87.453872",
       "commodity": "Wheat",
       "quantity": "28.29"
     },
     {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
       "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
+      "from lat": "26.132113",
+      "from long": "87.453872",
       "commodity": "Wheat",
       "quantity": "16.72"
     },
     {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
       "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
-      "commodity": "Wheat",
-      "quantity": "33.68"
-    },
-    {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
-      "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
-      "commodity": "Wheat",
-      "quantity": "63.24"
-    },
-    {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
-      "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
+      "from lat": "26.132113",
+      "from long": "87.453872",
       "commodity": "Wheat",
       "quantity": "21.12"
     },
     {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
       "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
-      "commodity": "Wheat",
-      "quantity": "27.7"
-    },
-    {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
-      "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
+      "from lat": "26.132113",
+      "from long": "87.453872",
       "commodity": "Wheat",
       "quantity": "13.66"
     },
     {
-      "From ID": "2030168",
-      "From name": "Mainatarh",
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
       "from district": "Araria",
-      "from lat": "27.101301",
-      "from long": "84.646379",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "6.56"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "25.88"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "0.14"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "18.9"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "68.02"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "29.94"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "17.04"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "FRice",
+      "quantity": "0.21"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "FRice",
+      "quantity": "28.35"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "44.2"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "33.68"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "63.24"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "27.7"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "46.78"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "26.5"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "53.6"
+    },
+    {
+      "From ID": "2090130",
+      "From name": "TPDS ARARIA I",
+      "from district": "Araria",
+      "from lat": "26.132113",
+      "from long": "87.453872",
+      "commodity": "Wheat",
+      "quantity": "49.75"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
       "commodity": "Wheat",
       "quantity": "52.94"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "51.7"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "27.76"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "18.72"
+    },
+    {
+      "From ID": "2090375",
+      "From name": "TPDS ARARIA II",
+      "from district": "Araria",
+      "from lat": "26.131121",
+      "from long": "87.454785",
+      "commodity": "Wheat",
+      "quantity": "12.38"
     }
   ],
   "fci_data": [
     {
       "State Name": "",
       "WH_District": "Araria",
-      "WH_Name": "ABC FCI",
+      "WH_Name": "Abc Fcij",
       "WH_ID": 43010101,
-      "Type of WH": "FCI",
-      "WH_Lat": 16.642,
-      "WH_Long": 81.049325,
-      "Allotment_Wheat": 0.0,
-      "Allotment_FRice": 0.0,
+      "Type of WH": "Fci",
+      "WH_Lat": 20.0,
+      "WH_Long": 70.0,
+      "Allotment_Wheat": 1000.0,
+      "Allotment_FRice": 1000.0,
       "Owned/Rented": "",
       "quantity of Wheat stored (Quintals)": 0
     }
@@ -113,11 +257,11 @@
       "WH_District": "Araria",
       "WH_Name": "Godown No 01 Nigam Godown Bazar Samiti Araria",
       "WH_ID": 216,
-      "Type of WH": "DCP",
+      "Type of WH": "Dcp",
       "WH_Lat": 26.1321,
       "WH_Long": 87.4542,
-      "Procurement Rice": -70.68,
-      "Procurement Wheat": 0.0,
+      "Procurement Rice": 24170.76,
+      "Procurement Wheat": 1000.0,
       "quantity of Wheat stored (Quintals)": 0
     },
     {
@@ -125,11 +269,11 @@
       "WH_District": "Araria",
       "WH_Name": "Godown No 02 Nigam Godown Bazar Samiti Forbisganj",
       "WH_ID": 217,
-      "Type of WH": "DCP",
+      "Type of WH": "Dcp",
       "WH_Lat": 26.3123,
       "WH_Long": 87.2569,
-      "Procurement Rice": 1514.7,
-      "Procurement Wheat": -91.0,
+      "Procurement Rice": 9699.13,
+      "Procurement Wheat": 93333.0,
       "quantity of Wheat stored (Quintals)": 0
     },
     {
@@ -140,7 +284,7 @@
       "Type of WH": "DCP",
       "WH_Lat": 26.3124,
       "WH_Long": 87.2554,
-      "Procurement Rice": -1673.0,
+      "Procurement Rice": 9127.04,
       "Procurement Wheat": 0.0,
       "quantity of Wheat stored (Quintals)": 0
     },
@@ -152,7 +296,7 @@
       "Type of WH": "DCP",
       "WH_Lat": 26.3138,
       "WH_Long": 87.2549,
-      "Procurement Rice": 91.18,
+      "Procurement Rice": 3231.56,
       "Procurement Wheat": 0.0,
       "quantity of Wheat stored (Quintals)": 0
     },
@@ -164,7 +308,7 @@
       "Type of WH": "DCP",
       "WH_Lat": 26.315,
       "WH_Long": 87.2579,
-      "Procurement Rice": 1444.1,
+      "Procurement Rice": 49542.3,
       "Procurement Wheat": 0.0,
       "quantity of Wheat stored (Quintals)": 0
     },
@@ -176,7 +320,91 @@
       "Type of WH": "DCP",
       "WH_Lat": 26.1312,
       "WH_Long": 87.4547,
+      "Procurement Rice": 9860.0,
+      "Procurement Wheat": 0.0,
+      "quantity of Wheat stored (Quintals)": 0
+    },
+    {
+      "State Name": "",
+      "WH_District": "Araria",
+      "WH_Name": "Godown No10Nigam Godown TPDS",
+      "WH_ID": 620,
+      "Type of WH": "DCP",
+      "WH_Lat": 26.12,
+      "WH_Long": 87.4514,
+      "Procurement Rice": 4705.9,
+      "Procurement Wheat": 175.0,
+      "quantity of Wheat stored (Quintals)": 0
+    },
+    {
+      "State Name": "",
+      "WH_District": "Araria",
+      "WH_Name": "Godown No:09BSWC Bazar Samiti (16C)FarbisganjAraria",
+      "WH_ID": 528,
+      "Type of WH": "DCP",
+      "WH_Lat": 26.3123,
+      "WH_Long": 87.2569,
+      "Procurement Rice": 10150.0,
+      "Procurement Wheat": 0.0,
+      "quantity of Wheat stored (Quintals)": 0
+    },
+    {
+      "State Name": "",
+      "WH_District": "Araria",
+      "WH_Name": "Godown No11Bazar Samiti Araria",
+      "WH_ID": 628,
+      "Type of WH": "DCP",
+      "WH_Lat": 26.1313,
+      "WH_Long": 87.4549,
+      "Procurement Rice": 4028.55,
+      "Procurement Wheat": 0.0,
+      "quantity of Wheat stored (Quintals)": 0
+    },
+    {
+      "State Name": "",
+      "WH_District": "Araria",
+      "WH_Name": "Godown No13 Hasanpur Pacs Godown Prakhand Raniganj",
+      "WH_ID": 635,
+      "Type of WH": "DCP",
+      "WH_Lat": 0.0,
+      "WH_Long": 0.0,
       "Procurement Rice": 0.0,
+      "Procurement Wheat": 0.0,
+      "quantity of Wheat stored (Quintals)": 0
+    },
+    {
+      "State Name": "",
+      "WH_District": "Araria",
+      "WH_Name": "Godown No14 Nigam Godown Prakhand Parisar Forbisganj",
+      "WH_ID": 636,
+      "Type of WH": "DCP",
+      "WH_Lat": 26.3101,
+      "WH_Long": 87.2448,
+      "Procurement Rice": 5278.71,
+      "Procurement Wheat": 0.0,
+      "quantity of Wheat stored (Quintals)": 0
+    },
+    {
+      "State Name": "",
+      "WH_District": "Araria",
+      "WH_Name": "Godown No15 Biscoman Godown Araria",
+      "WH_ID": 796,
+      "Type of WH": "DCP",
+      "WH_Lat": 26.1306,
+      "WH_Long": 87.4549,
+      "Procurement Rice": 5420.42,
+      "Procurement Wheat": 0.0,
+      "quantity of Wheat stored (Quintals)": 0
+    },
+    {
+      "State Name": "",
+      "WH_District": "Araria",
+      "WH_Name": "Godown No16 Biscoman Godown Araria",
+      "WH_ID": 797,
+      "Type of WH": "DCP",
+      "WH_Lat": 26.1306,
+      "WH_Long": 87.4547,
+      "Procurement Rice": 5800.0,
       "Procurement Wheat": 0.0,
       "quantity of Wheat stored (Quintals)": 0
     },
@@ -188,7 +416,7 @@
       "Type of WH": "DCP",
       "WH_Lat": 0.0,
       "WH_Long": 0.0,
-      "Procurement Rice": 2030.0,
+      "Procurement Rice": 5220.0,
       "Procurement Wheat": 0.0,
       "quantity of Wheat stored (Quintals)": 0
     }

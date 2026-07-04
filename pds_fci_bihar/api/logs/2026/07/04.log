@@ -1,0 +1,9 @@
+[2026-07-04 13:32:48] User -> DCP InActive -> FciN@123| Abc Fci
+[2026-07-04 13:32:49] User -> DCP Active -> FciN@123| Abc Fci
+[2026-07-04 13:32:50] User -> DCP InActive -> FciN@123| Abc Fci
+[2026-07-04 13:32:50] User -> DCP Active -> FciN@123| Abc Fci
+[2026-07-04 13:32:51] User -> DCP InActive -> FciN@123| Abc Fci
+[2026-07-04 13:32:52] User -> DCP Active -> FciN@123| Abc Fci
+[2026-07-04 13:32:53] User -> DCP InActive -> FciN@123| Abc Fci
+[2026-07-04 13:32:53] User -> DCP Active -> FciN@123| Abc Fci
+[2026-07-04 13:33:06] User -> DCP Edit ->FciN@123| Requested JSON -> {"name":"Abc Fcij","uniqueid":"DCP_6a489657f20","active":"1","type":"Fci","latitude":"20","longitude":"70","district":"Araria","id":"43010101","demand":"1000","demand_rice":"1000"}

@@ -43,6 +43,7 @@ function isValidCoordinate($value, $coordinateType) {
 }
 
 function isStringNumber($stringValue) {
+    if ($stringValue === "0" || $stringValue === 0) return true;
     return is_numeric($stringValue);
 }
 
@@ -65,40 +66,48 @@ if(!isValidCoordinate($_POST["latitude"],'latitude') or !isValidCoordinate($_POS
 	exit();
 }
 
-if(!isStringNumber($_POST["demand"])){
-	echo "Error : Check Procurement rice Value";
-	exit();
-}
-if(!isStringNumber($_POST["demand_rice"])){
+// if(!isStringNumber($_POST["demand"]) && trim((string)$_POST["demand"]) !== "0"){
+// 	echo "Error : Check Procurement rice Value";
+// 	exit();
+// }
+if(!isStringNumber($_POST["demand_rice"]) && trim((string)$_POST["demand_rice"]) !== "0"){
 	echo "Error : Check Procurement wheat Value";
 	exit();
 }
 
 $dbHashedPassword = $row['password'];
 if(password_verify($person->getPassword(), $dbHashedPassword)){
-	if(!preg_match('/^[a-zA-Z0-9 ]+$/', $_POST["id"])){
-		echo "Error : ID must contain only numbers, alphabets, and spaces";
+	$urlPattern = '/https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic|png|jpg|jpeg|gif|html|php)\b|href|src|<a|&lt;a|<\/a>|&lt;\/a>|<img|&lt;img/i';
+	if(
+		preg_match($urlPattern, $_POST["name"]) || 
+		preg_match('/[<>"\'\\\\]/', $_POST["name"]) ||
+		!preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["name"])
+	){
+		echo "Error : No special characters allowed";
 		exit();
 	}
-	$urlPattern = '/https?:\/\/|www\.|[a-zA-Z0-9.\-]+\.(com|org|net|in|co|gov|nic)\b/i';
-	if(preg_match($urlPattern, $_POST["name"])){
-		echo "Error : Name cannot contain links or URLs";
+	if(
+		preg_match($urlPattern, $_POST["type"]) || 
+		preg_match('/[<>"\'\\\\]/', $_POST["type"]) ||
+		!preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["type"])
+	){
+		echo "Error : No special characters allowed";
 		exit();
 	}
-	if(preg_match($urlPattern, $_POST["id"])){
-		echo "Error : ID cannot contain links or URLs";
+	if(
+		preg_match($urlPattern, $_POST["id"]) || 
+		preg_match('/[<>"\'\\\\]/', $_POST["id"]) ||
+		!preg_match('/^[a-zA-Z0-9 ]+$/', $_POST["id"])
+	){
+		echo "Error : No special characters allowed";
 		exit();
 	}
-	if(!preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["name"])){
-		echo "Error : Name can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _)";
-		exit();
-	}
-	if(!preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["type"])){
-		echo "Error : Type can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _)";
-		exit();
-	}
-	if(isset($_POST["district"]) && !preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["district"])){
-		echo "Error : District can only contain letters, numbers, spaces, and safe symbols (-, ., (, ), /, _)";
+	if(isset($_POST["district"]) && (
+		preg_match($urlPattern, $_POST["district"]) || 
+		preg_match('/[<>"\'\\\\]/', $_POST["district"]) ||
+		!preg_match('/^[a-zA-Z0-9_ \-()\/.]*$/', $_POST["district"])
+	)){
+		echo "Error : No special characters allowed";
 		exit();
 	}
 	$district = formatName($_POST["district"]);
