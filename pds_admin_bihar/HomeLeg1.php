@@ -695,7 +695,7 @@ require('util/Logger.php');
 					
 					<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
 						<button id="pushToApiButton" class="btn btn-primary" style="display: none; font-size: 18px; padding: 10px 24px; font-weight: bold; border-radius: 25px; background-color: #5E35B1; border: none; color: white;" onclick="pushDataToApi()">
-							Push DCP Details to Coop Online for <span id="pushMonthText"></span>
+							Push Leg1 Optimised Plan for <span id="pushMonthText"></span>
 						</button>
 					</div>
 				
@@ -1149,7 +1149,7 @@ require('util/Logger.php');
 				
 				var thead = document.createElement("thead");
 				var headerRow = document.createElement("tr");
-				var headers = ["Scenario", "WH_Used", "FPS_Used", "Total_Allocation", "Total_QKM", "Average Distance"];
+				var headers = ["Scenario", "FCI/DCP_Used", "WH_Used", "Total_Allocation", "Total_QKM", "Average Distance"];
 				headers.forEach(function(headerText) {
 					var th = document.createElement("th");
 					th.textContent = headerText;
