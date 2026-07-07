@@ -1339,6 +1339,8 @@ function handleStateCheckboxChange() {
 				var totalDemandWheat = Object.values(data.District_Demand).reduce((acc, demand) => acc + demand, 0);
 				var totalDemandRice = Object.values(data.District_Demand_Rice).reduce((acc, demand) => acc + demand, 0);
 				var totalDemand = totalDemandWheat + totalDemandRice;
+				var totalStateWheatProc = data.State_Wheatprocurement ? Object.values(data.State_Wheatprocurement).reduce((acc, val) => acc + val, 0) : 0;
+				var totalStateRiceProc = data.State_Riceprocurement ? Object.values(data.State_Riceprocurement).reduce((acc, val) => acc + val, 0) : 0;
 				var month = document.getElementById("month").value;
 
 				// Format the total demand and total capacity values with commas
@@ -1352,7 +1354,7 @@ function handleStateCheckboxChange() {
 				districtdata = data.District_Name;
 
 				if (totalCapacity > 0 && totalDemand > 0) {
-					if (totalCapacity >= totalDemand) {
+					if ((totalCapacity + totalStateWheatProc) > totalDemandWheat && (totalCapacity + totalStateRiceProc) > totalDemandRice) {
 						// document.getElementById("result").innerHTML = "Optimization can be done.";
 						document.getElementById("result").innerHTML = "<span style='font-weight: bold; font-size: 20px; color: green;'>Optimization can be done.</span>";
 						document.getElementById("districtcheckbox").style.display = "block";
