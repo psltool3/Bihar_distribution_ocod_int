@@ -560,6 +560,11 @@ while($row = mysqli_fetch_array($result))
 							alert("New Id " + String(value) + " distance needs to be filled");
 							return;
 						}
+						var distVal = modifiedDistanceData[key + "_iddistance"];
+						if(isNaN(distVal) || distVal.toString().trim() === "" || parseFloat(distVal) < 0){
+							alert("New Id " + String(value) + " distance must be a valid non-negative number");
+							return;
+						}
 					}
 				}
 			}
@@ -726,8 +731,8 @@ while($row = mysqli_fetch_array($result))
 									var approve_district_change = "<td></td>";
 								}
 								
-								if(distance_admin==null || distance_admin==""){
-									var distance_admin_part = "<td><input type='text' onchange='handleDistanceChange(\"" + uniqueid_iddistance + "\")' id='" + uniqueid_iddistance + "' name='" + uniqueid_iddistance + "' disabled required /></td>";
+								if(distance_admin===null || distance_admin===""){
+									var distance_admin_part = "<td><input type='text' inputmode='decimal' oninput='this.value = this.value.replace(/[^0-9.]/g, \"\").replace(/(\\..*?)\\..*/g, \"$1\"); handleDistanceChange(\"" + uniqueid_iddistance + "\");' onchange='handleDistanceChange(\"" + uniqueid_iddistance + "\")' id='" + uniqueid_iddistance + "' name='" + uniqueid_iddistance + "' disabled required /></td>";
 								}
 								else{
 									var distance_admin_part = "<td>" + distance_admin + "</td>"

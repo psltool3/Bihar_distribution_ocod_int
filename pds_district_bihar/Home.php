@@ -481,6 +481,11 @@ if ($currentTimestamp >= $targetTimestamp) {
 						alert("New Id " + String(value) + " distance needs to be filled");
 						return;
 					}
+					var distVal = modifiedDistanceData[key + "_iddistance"];
+					if (isNaN(distVal) || distVal.toString().trim() === "" || parseFloat(distVal) < 0) {
+						alert("New Id " + String(value) + " distance must be a valid non-negative number");
+						return;
+					}
 				}
 			}
 		}
@@ -744,8 +749,8 @@ if ($currentTimestamp >= $targetTimestamp) {
 									uniqueid_bool_array.push(uniqueid_bool);
 								}
 
-								if (distance_district == null || distance_district == "") {
-									var newdistance = "<td><input type='text' onchange='handleDistanceChange(\"" + uniqueid_iddistance + "\")' id='" + uniqueid_iddistance + "' name='" + uniqueid_iddistance + "' disabled required /></td>";
+								if (distance_district === null || distance_district === "") {
+									var newdistance = "<td><input type='text' inputmode='decimal' oninput='this.value = this.value.replace(/[^0-9.]/g, \"\").replace(/(\\..*?)\\..*/g, \"$1\"); handleDistanceChange(\"" + uniqueid_iddistance + "\");' onchange='handleDistanceChange(\"" + uniqueid_iddistance + "\")' id='" + uniqueid_iddistance + "' name='" + uniqueid_iddistance + "' disabled required /></td>";
 								}
 								else {
 									var newdistance = "<td>" + distance_district + "</td>"
