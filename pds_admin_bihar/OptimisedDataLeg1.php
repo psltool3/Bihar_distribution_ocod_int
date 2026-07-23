@@ -283,6 +283,7 @@ if($currentTimestamp >= $targetTimestamp) {
 												<th style="font-size:16px">Reason for not Approve</th>
 												<th style="font-size:16px">Distance</th>
 												<th style="font-size:16px">Status</th>										
+												<th style="font-size:16px">Action</th>										
                                             </tr>
                                         </thead>
 										<tbody id="table_body">
@@ -726,7 +727,8 @@ if($currentTimestamp >= $targetTimestamp) {
 									var admin_reason = "<td><select class='form-control' onchange='handleReasonChange(\"" + uniqueid_idreason + "\")' id='" + uniqueid_idreason + "' name='" + uniqueid_idreason + "' disabled><option value=''>Select</option><option value='Road not accessible'>Road not accessible</option><option value='Road repair going on'>Road repair going on</option><option value='Pertaining to Distance'>Pertaining to Distance</option></select></td>";
 								}
 								
-								$('#table_body').append(subpart1 + warehouse_id_part + admin_reason + newdistance  + admin_approve + "</tr>");
+								var action_btn = "<td><button class='btn btn-warning' onclick='resetRow(\"" + uniqueid + "\")'>Reset</button></td>";
+								$('#table_body').append(subpart1 + warehouse_id_part + admin_reason + newdistance  + admin_approve + action_btn + "</tr>");
 							}
 							//fetchCardDataFromServer();							
 						}
@@ -737,6 +739,21 @@ if($currentTimestamp >= $targetTimestamp) {
 				});
 			}
 		}
+
+		function resetRow(uniqueid) {
+			if(confirm("Are you sure you want to reset this row's tagging?")) {
+				$.ajax({
+					type: "POST",
+					url: "api/ResetRowAdminLeg1.php",
+					data: { uniqueid: uniqueid },
+					success: function(result) {
+						alert("Row reset successfully");
+						fetchDataFromServerId();
+					}
+				});
+			}
+		}
+
 		fetchDataFromServer();
 		
 		// Set the end time from PHP to JavaScript

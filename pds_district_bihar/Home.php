@@ -481,6 +481,11 @@ if ($currentTimestamp >= $targetTimestamp) {
 						alert("New Id " + String(value) + " distance needs to be filled");
 						return;
 					}
+					var distVal = modifiedDistanceData[key + "_iddistance"];
+					if (isNaN(distVal) || distVal.toString().trim() === "" || parseFloat(distVal) < 0) {
+						alert("New Id " + String(value) + " distance must be a valid non-negative number");
+						return;
+					}
 				}
 			}
 		}
@@ -744,8 +749,8 @@ if ($currentTimestamp >= $targetTimestamp) {
 									uniqueid_bool_array.push(uniqueid_bool);
 								}
 
-								if (distance_district == null || distance_district == "") {
-									var newdistance = "<td><input type='text' onchange='handleDistanceChange(\"" + uniqueid_iddistance + "\")' id='" + uniqueid_iddistance + "' name='" + uniqueid_iddistance + "' disabled required /></td>";
+								if (distance_district === null || distance_district === "") {
+									var newdistance = "<td><input type='text' inputmode='decimal' oninput='this.value = this.value.replace(/[^0-9.]/g, \"\").replace(/(\\..*?)\\..*/g, \"$1\"); handleDistanceChange(\"" + uniqueid_iddistance + "\");' onchange='handleDistanceChange(\"" + uniqueid_iddistance + "\")' id='" + uniqueid_iddistance + "' name='" + uniqueid_iddistance + "' disabled required /></td>";
 								}
 								else {
 									var newdistance = "<td>" + distance_district + "</td>"
@@ -758,7 +763,12 @@ if ($currentTimestamp >= $targetTimestamp) {
 									var district_reason = "<td><select class='form-control' onchange='handleReasonChange(\"" + uniqueid_idreason + "\")' id='" + uniqueid_idreason + "' name='" + uniqueid_idreason + "' disabled><option value=''>Select</option><option value='Road not accessible'>Road not accessible</option><option value='Road repair going on'>Road repair going on</option><option value='Pertaining to Distance'>Pertaining to Distance</option></select></td>";
 								}
 
-								var action_btn = "<td><button class='btn btn-warning' onclick='resetRow(\"" + uniqueid + "\")'>Reset</button></td>";
+								var action_btn = "";
+								if (approve_admin == "yes") {
+									action_btn = "<td><button class='btn btn-warning' disabled>Reset</button></td>";
+								} else {
+									action_btn = "<td><button class='btn btn-warning' onclick='resetRow(\"" + uniqueid + "\")'>Reset</button></td>";
+								}
 								$('#table_body').append(subpart1 + warehouse_id_part + district_reason + newdistance + admin_approve + action_btn + "</tr>");
 							}
 						}
@@ -775,11 +785,10 @@ if ($currentTimestamp >= $targetTimestamp) {
 
 	function resetRow(uniqueid) {
 		if (confirm("Are you sure you want to reset this row's tagging?")) {
-			var month = document.getElementById("month").value;
 			$.ajax({
 				type: "POST",
 				url: "api/ResetRowDistrict.php",
-				data: { uniqueid: uniqueid, month: month },
+				data: { uniqueid: uniqueid },
 				success: function (result) {
 					alert("Row reset successfully");
 					fetchDataFromServerId();
