@@ -11,6 +11,8 @@ class Warehouse {
     public $storage;
     public $uniqueid;
     public $active;
+    public $actual_storage;
+    public $factorial;
 
     // Getter methods
 
@@ -52,6 +54,14 @@ class Warehouse {
 	
 	public function getActive() {
         return $this->active;
+    }
+	
+	public function getActual_storage() {
+        return $this->actual_storage;
+    }
+	
+	public function getFactorial() {
+        return $this->factorial;
     }
 
 
@@ -97,8 +107,16 @@ class Warehouse {
         $this->active = $active;
     }
 	
+	public function setActual_storage($actual_storage) {
+        $this->actual_storage = $actual_storage;
+    }
+	
+	public function setFactorial($factorial) {
+        $this->factorial = $factorial;
+    }
+	
 	function insert(Warehouse $warehouse){
-        return "INSERT INTO warehouse (district, name, id, warehousetype, type, latitude, longitude, storage, uniqueid, active) VALUES ('".$warehouse->getDistrict()."','".$warehouse->getName()."','".$warehouse->getId()."','".$warehouse->getWarehousetype()."','".$warehouse->getType()."','".$warehouse->getLatitude()."','".$warehouse->getLongitude()."','".$warehouse->getStorage()."','".$warehouse->getUniqueid()."','".$warehouse->getActive()."')";
+        return "INSERT INTO warehouse (district, name, id, warehousetype, type, latitude, longitude, storage, uniqueid, active, actual_storage, factorial) VALUES ('".$warehouse->getDistrict()."','".$warehouse->getName()."','".$warehouse->getId()."','".$warehouse->getWarehousetype()."','".$warehouse->getType()."','".$warehouse->getLatitude()."','".$warehouse->getLongitude()."','".$warehouse->getStorage()."','".$warehouse->getUniqueid()."','".$warehouse->getActive()."','".$warehouse->getActual_storage()."','".$warehouse->getFactorial()."')";
     }
 
     function delete(Warehouse $warehouse){
@@ -129,12 +147,10 @@ class Warehouse {
     }
 
     function update(Warehouse $warehouse){
-      return  "UPDATE warehouse SET district = '".$warehouse->getDistrict()."',name = '".$warehouse->getName()."',id = '".$warehouse->getId()."',warehousetype = '".$warehouse->getWarehousetype()."',type = '".$warehouse->getType()."',latitude = '".$warehouse->getLatitude()."',longitude = '".$warehouse->getLongitude()."',storage = '".$warehouse->getStorage()."',active = '".$warehouse->getActive()."' WHERE uniqueid = '".$warehouse->getUniqueid()."'";
+      return  "UPDATE warehouse SET district = '".$warehouse->getDistrict()."',name = '".$warehouse->getName()."',id = '".$warehouse->getId()."',warehousetype = '".$warehouse->getWarehousetype()."',type = '".$warehouse->getType()."',latitude = '".$warehouse->getLatitude()."',longitude = '".$warehouse->getLongitude()."',storage = '".$warehouse->getStorage()."',active = '".$warehouse->getActive()."',actual_storage = '".$warehouse->getActual_storage()."',factorial = '".$warehouse->getFactorial()."' WHERE uniqueid = '".$warehouse->getUniqueid()."'";
     }
 	
 	function updateEdit(Warehouse $warehouse){
-      return  "UPDATE warehouse SET district = '".$warehouse->getDistrict()."',name = '".$warehouse->getName()."',warehousetype = '".$warehouse->getWarehousetype()."',type = '".$warehouse->getType()."',latitude = '".$warehouse->getLatitude()."',longitude = '".$warehouse->getLongitude()."',storage = '".$warehouse->getStorage()."',active = '".$warehouse->getActive()."' WHERE id = '".$warehouse->getId()."'";
+      return  "UPDATE warehouse SET district = '".$warehouse->getDistrict()."',name = '".$warehouse->getName()."',warehousetype = '".$warehouse->getWarehousetype()."',type = '".$warehouse->getType()."',latitude = '".$warehouse->getLatitude()."',longitude = '".$warehouse->getLongitude()."',storage = '".$warehouse->getStorage()."',active = '".$warehouse->getActive()."',actual_storage = '".$warehouse->getActual_storage()."',factorial = '".$warehouse->getFactorial()."' WHERE id = '".$warehouse->getId()."'";
     }
 }
-
-?>

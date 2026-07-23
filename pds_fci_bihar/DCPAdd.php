@@ -116,23 +116,23 @@ require('Header.php');
 											
 											
 											<div class="form-group">
-                                                <label class="col-md-3 control-label">Procurement of Wheat in Quintals*</label>
+                                                <label class="col-md-3 control-label">Wheat Offtake in Quintals*</label>
                                                 <div class="col-md-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><span class="fa fa-info"></span></span>
                                                         <input type="text" class="form-control" id="demand" name="demand" required />
                                                     </div>
-                                                    <span class="help-block"> Procurement in Quintals</span>
+                                                    <span class="help-block">Wheat Offtake in Quintals</span>
                                                 </div>
                                             </div>
 											<div class="form-group">
-                                                <label class="col-md-3 control-label">Procurement of FRice in Quintals*</label>
+                                                <label class="col-md-3 control-label">FRice Offtake in Quintals*</label>
                                                 <div class="col-md-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><span class="fa fa-info"></span></span>
                                                         <input type="text" class="form-control" id="demand_rice" name="demand_rice" required />
                                                     </div>
-                                                    <span class="help-block">Procurement in Quintals</span>
+                                                    <span class="help-block">FRice Offtake in Quintals</span>
                                                 </div>
                                             </div>
 										   

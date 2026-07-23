@@ -567,7 +567,7 @@ require('util/Logger.php');
 									<div class="card h-100"
 										style="background-color:#FFA500; color:white; padding:12px; font-weight: bold;">
 										<div style="font-size:20px" id="total_demand"></div>
-										<div style="font-size:14px">Total FPS Demands  Rice(Qtl)</div>
+										<div style="font-size:14px">Total FPS Demands Wheat(Qtl)</div>
 									</div>
 								</div>
 								
@@ -575,7 +575,7 @@ require('util/Logger.php');
 									<div class="card h-100"
 										style="background-color:#F96981; color:white; padding:12px; font-weight: bold;">
 										<div style="font-size:20px" id="total_demand_rice"></div>
-										<div style="font-size:14px">Total FPS Demands Wheat (Qtl)</div>
+										<div style="font-size:14px">Total FPS Demands Rice(Qtl)</div>
 									</div>
 								</div>
 								

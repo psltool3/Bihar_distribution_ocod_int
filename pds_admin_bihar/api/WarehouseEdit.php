@@ -64,8 +64,8 @@ if(!isValidCoordinate($_POST["latitude"],'latitude') or !isValidCoordinate($_POS
 	exit();
 }
 
-if(!isStringNumber($_POST["storage"])){
-	echo "Error : Check Storage Value";
+if(!isStringNumber($_POST["actual_storage"]) or !isStringNumber($_POST["factorial"]) or floatval($_POST["actual_storage"]) < 0 or floatval($_POST["factorial"]) < 0){
+	echo "Error : Check Actual Storage and Factorial Values (must be positive integer or float)";
 	exit();
 }
 
@@ -102,7 +102,9 @@ if(password_verify($person->getPassword(), $dbHashedPassword)){
     $name = formatName($_POST["name"]);
     $id = $_POST["id"];
     $type = formatName($_POST["type"]);
-    $storage = $_POST["storage"];
+    $actual_storage = $_POST["actual_storage"];
+    $factorial = $_POST["factorial"];
+    $storage = floatval($actual_storage) * floatval($factorial);
     $warehousetype = $_POST["warehousetype"];
     $uniqueid = $_POST["uniqueid"];
     $active = $_POST["active"];
@@ -116,6 +118,8 @@ $Warehouse->setName($name);
 $Warehouse->setId($id);
 $Warehouse->setType($type);
 $Warehouse->setStorage($storage);
+$Warehouse->setActual_storage($actual_storage);
+$Warehouse->setFactorial($factorial);
 $Warehouse->setWarehousetype($warehousetype);
 $Warehouse->setActive($active);
 

@@ -19,7 +19,8 @@ $mapData = [
     "Warehouse Type" => "warehousetype",
     "Latitude" => "latitude",
     "Longitude" => "longitude",
-    "Storage" => "storage",
+    "Actual Storage" => "actual_storage",
+    "Factorial" => "factorial",
 	"Active/Not-Active" => "active"
 ];
 
@@ -98,11 +99,12 @@ try{
 		$type = -4;
 		$latitude = -5;
 		$longitude = -6;
-		$storage = -7;
+		$actual_storage = -7;
+		$factorial = -8;
 		$active = -1;
 		while (($column = fgetcsv($file, 10000, ",")) !== FALSE) {
 			if($i>0){
-				if($district<0 or $name<0 or $id<0 or $type<0 or $storage<0 or $latitude<0 or $longitude<0 or $warehousetype<0 or $active<0){
+				if($district<0 or $name<0 or $id<0 or $type<0 or $latitude<0 or $longitude<0 or $warehousetype<0 or $active<0 or $actual_storage<0 or $factorial<0){
 					echo "Error : You have modified Template Header, please check";
 					exit();
 				}
@@ -111,8 +113,13 @@ try{
 					echo "</br>";
 					$redirect = 0;
 				}
-				if(!isStringNumber($column[$storage])){
-					echo "Error : Check Storage Value: ".$column[$storage];
+				if(!isStringNumber($column[$actual_storage]) or floatval($column[$actual_storage]) < 0){
+					echo "Error : Check Actual Storage Value (must be positive integer or float): ".$column[$actual_storage];
+					echo "</br>";
+					$redirect = 0;
+				}
+				if(!isStringNumber($column[$factorial]) or floatval($column[$factorial]) < 0){
+					echo "Error : Check Factorial Value (must be positive integer or float): ".$column[$factorial];
 					echo "</br>";
 					$redirect = 0;
 				}
@@ -148,8 +155,12 @@ try{
 						case $reverseMapData["type"]:
 							$type = $j;
 							break;
-						case $reverseMapData["storage"]:
-							$storage = $j;
+
+						case $reverseMapData["actual_storage"]:
+							$actual_storage = $j;
+							break;
+						case $reverseMapData["factorial"]:
+							$factorial = $j;
 							break;
 						case $reverseMapData["warehousetype"]:
 							$warehousetype = $j;
@@ -187,11 +198,12 @@ try{
 			$type = -4;
 			$latitude = -5;
 			$longitude = -6;
-			$storage = -7;
-			$active = -8;
+			$actual_storage = -7;
+			$factorial = -8;
+			$active = -10;
 			while (($column = fgetcsv($file, 10000, ",")) !== FALSE) {
 				if($i>0){
-					if($district<0 or $name<0 or $id<0 or $type<0 or $storage<0 or $latitude<0 or $longitude<0 or $warehousetype<0 or $active<0){
+					if($district<0 or $name<0 or $id<0 or $type<0 or $latitude<0 or $longitude<0 or $warehousetype<0 or $active<0 or $actual_storage<0 or $factorial<0){
 						echo "Error : You have modified Template Header, please check";
 						exit();
 					}
@@ -204,7 +216,10 @@ try{
 					$Warehouse->setName($column[$name]);
 					$Warehouse->setId($column[$id]);
 					$Warehouse->setType($column[$type]);
-					$Warehouse->setStorage($column[$storage]);
+					$calculated_storage = floatval($column[$actual_storage]) * floatval($column[$factorial]);
+					$Warehouse->setStorage($calculated_storage);
+					$Warehouse->setActual_storage($column[$actual_storage]);
+					$Warehouse->setFactorial($column[$factorial]);
 					$Warehouse->setWarehousetype($column[$warehousetype]);
 					$Warehouse->setActive($column[$active]);
 					while(true){
@@ -253,8 +268,12 @@ try{
 							case $reverseMapData["type"]:
 								$type = $j;
 								break;
-							case $reverseMapData["storage"]:
-								$storage = $j;
+
+							case $reverseMapData["actual_storage"]:
+								$actual_storage = $j;
+								break;
+							case $reverseMapData["factorial"]:
+								$factorial = $j;
 								break;
 							case $reverseMapData["warehousetype"]:
 								$warehousetype = $j;

@@ -23,8 +23,8 @@ $mapData = [
     "Type" => "type",
     "Latitude" => "latitude",
     "Longitude" => "longitude",
-    "Allotement of FRice" => "demand_rice",
-	"Allotement of Wheat" => "demand",
+    "FRice Offtake" => "demand_rice",
+	"Wheat Offtake" => "demand",
 	"Active/Not-Active" => "active"
 ];
 

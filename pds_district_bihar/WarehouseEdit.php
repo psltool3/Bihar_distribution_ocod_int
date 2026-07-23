@@ -13,6 +13,8 @@ $latitude = "";
 $longitude = "";
 $storage = "";
 $active = "";
+$actual_storage = "";
+$factorial = "";
 
 if(isset($_POST["uid"])){
 	$uniqueid = $_POST["uid"];
@@ -30,6 +32,8 @@ if(isset($_POST["uid"])){
 		$longitude = $row['longitude'];
 		$storage = $row['storage'];
 		$active = $row['active'];
+		$actual_storage = $row['actual_storage'];
+		$factorial = $row['factorial'];
 	}
 	else{
 		header("Location:Warehouse.php");
@@ -141,13 +145,38 @@ else{
                                             </div>
 											
 											<div class="form-group">
+                                                <label class="col-md-3 control-label">Actual Storage*</label>
+                                                <div class="col-md-9">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><span class="fa fa-info"></span></span>
+                                                        <input type="text" class="form-control" id="actual_storage" name="actual_storage"
+                                                            value="<?php echo $actual_storage ?>" required />
+                                                    </div>
+                                                    <span class="help-block">Actual Storage</span>
+                                                </div>
+                                            </div>
+
+											<div class="form-group">
+                                                <label class="col-md-3 control-label">Factorial*</label>
+                                                <div class="col-md-9">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><span class="fa fa-info"></span></span>
+                                                        <input type="text" class="form-control" id="factorial" name="factorial"
+                                                            value="<?php echo $factorial ?>" required />
+                                                    </div>
+                                                    <span class="help-block">Factorial</span>
+                                                </div>
+                                            </div>
+
+											<div class="form-group">
                                                 <label class="col-md-3 control-label">Storage Capacity in Quintals*</label>
                                                 <div class="col-md-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><span class="fa fa-info"></span></span>
-                                                        <input type="text" class="form-control" id="storage" name="storage" value="<?php echo $storage ?>" required />
+                                                        <input type="text" class="form-control" id="storage" name="storage"
+                                                            value="<?php echo $storage ?>" readonly required />
                                                     </div>
-                                                    <span class="help-block">Storage Capacity in Quintals</span>
+                                                    <span class="help-block">Storage Capacity in Quintals (Calculated)</span>
                                                 </div>
                                             </div>
 											
@@ -300,6 +329,27 @@ else{
         <!-- END PAGE PLUGINS -->
 		
 		<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var actualStorageInput = document.getElementById('actual_storage');
+            var factorialInput = document.getElementById('factorial');
+            var storageInput = document.getElementById('storage');
+
+            function calculateStorage() {
+                var actual = parseFloat(actualStorageInput.value);
+                var fact = parseFloat(factorialInput.value);
+                if (!isNaN(actual) && !isNaN(fact)) {
+                    storageInput.value = (actual * fact).toFixed(2);
+                } else {
+                    storageInput.value = '';
+                }
+            }
+
+            if (actualStorageInput && factorialInput && storageInput) {
+                actualStorageInput.addEventListener('input', calculateStorage);
+                factorialInput.addEventListener('input', calculateStorage);
+            }
+        });
+
 		function showPopup() {
             
 			var name = document.getElementById('name').value;
@@ -310,9 +360,15 @@ else{
             var storage = document.getElementById('storage').value;
             var district = document.getElementById('district').value;
             var warehousetype = document.getElementById('warehousetype').value;
+            var actual_storage = document.getElementById('actual_storage').value;
+            var factorial = document.getElementById('factorial').value;
 
-            if (name === '' || type === '' || latitude === '' || longitude === '' || id === '' || storage === '' || district === '' || warehousetype === '') {
+            if (name === '' || type === '' || latitude === '' || longitude === '' || id === '' || storage === '' || district === '' || warehousetype === '' || actual_storage === '' || factorial === '') {
                 alert('Please enter all fields');
+                return false;
+            }
+            if (isNaN(actual_storage) || isNaN(factorial) || parseFloat(actual_storage) < 0 || parseFloat(factorial) < 0) {
+                alert('Actual Storage and Factorial must be positive integer or float values.');
                 return false;
             }
             if (!/^[a-zA-Z0-9 ]+$/.test(id)) {

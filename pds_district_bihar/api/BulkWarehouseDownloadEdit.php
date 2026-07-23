@@ -11,7 +11,8 @@ $mapData = [
     "Warehouse Type" => "warehousetype",
     "Latitude" => "latitude",
     "Longitude" => "longitude",
-    "Storage" => "storage",
+    "Actual Storage" => "actual_storage",
+    "Factorial" => "factorial",
 	"Active/Not-Active" => "active"
 ];
 
@@ -37,7 +38,7 @@ $result = mysqli_query($con,$query);
 $numrows = mysqli_num_rows($result);
 if($numrows>0){
 	while($row = mysqli_fetch_array($result)){
-		if($row['Field']!="uniqueid"){
+		if($row['Field']!="uniqueid" && $row['Field']!="storage"){
 			array_push($columns,$reverseMapData[$row['Field']]);
 		}
 	}

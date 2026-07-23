@@ -86,6 +86,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
 				<li>
 					<a href="DCP.php" style="padding-left:0px"><span class="xn-text" style="font-family:sans-serif;font-weight:italic;font-size:16px;">Edit FCI</span></a>
 				</li>
+				<li>
+					<a href="OptimisedDataLeg1.php" style="padding-left:0px"><span class="xn-text" style="font-family:sans-serif;font-weight:italic;font-size:16px;">Result</span></a>
+				</li>
 
 				<li <?php echo ($current_page === 'api/Logout.php') ? 'class="active"' : ''; ?> style="margin-bottom: 30px;">
 					<a href="api/Logout.php" style="padding-left:0px"><span class="xn-text" style="font-family:sans-serif;font-weight:italic;font-size:16px;">Logout</span></a>

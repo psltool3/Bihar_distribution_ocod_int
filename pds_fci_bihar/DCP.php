@@ -79,8 +79,8 @@ require('Header.php');
 												<th style="font-size:16px">Type</th>
 												<th style="font-size:16px">Latitude</th>
 												<th style="font-size:16px">Longitude</th>
-												<th style="font-size:16px">Allotement of Wheat(Qtl) </th>
-												<th style="font-size:16px">Allotement of FRice(Qtl)</th>
+												<th style="font-size:16px">Wheat Offtake(Qtl) </th>
+												<th style="font-size:16px">FRice Offtake(Qtl)</th>
 												<th style="font-size:16px">Status</th>
 												<th style="font-size:16px">Change Status</th>
                                                 <th style="font-size:16px">Edit</th>

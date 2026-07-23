@@ -7,13 +7,7 @@ if(!SessionCheck()){
 	return;
 }
 
-$month = $_POST['month'];
-$district = $_POST['district'];
-$parts = explode('_', $month);
-
-$month = $parts[0];
-$year = $parts[1]; 
-$query = "SELECT * FROM optimised_table WHERE month='$month' AND year='$year'";
+$query = "SELECT * FROM optimised_table_leg1 ORDER BY last_updated DESC LIMIT 1";
 $result = mysqli_query($con,$query);
 $numrow = mysqli_num_rows($result);
 $id = "";
@@ -22,8 +16,8 @@ if($numrow>0){
 	$id = $row['id'];
 }
 
-$tablename = "optimiseddata_".$id;
-$result = $con->query("SELECT DISTINCT `to` from $tablename WHERE to_district='$district'");
+$tablename = "optimiseddata_leg1_".$id;
+$result = $con->query("SELECT DISTINCT from_id from $tablename WHERE 1");
 
 if ($result->num_rows > 0) {
     $rows = array();

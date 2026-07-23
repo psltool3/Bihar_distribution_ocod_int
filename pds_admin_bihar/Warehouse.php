@@ -56,6 +56,8 @@ require('Header.php');
 												<th style="font-size:15px">Warehouse Type</th>
 												<th style="font-size:15px">Latitude</th>
 												<th style="font-size:15px">Longitude</th>
+												<th style="font-size:15px">Actual Storage</th>
+												<th style="font-size:15px">Factorial</th>
 												<th style="font-size:15px">Storage</th>
 												<th style="font-size:16px">Status</th>
 												<th style="font-size:16px">Change Status</th>
@@ -86,6 +88,8 @@ require('Header.php');
 											"<td>{$row['warehousetype']}</td>".
 											"<td>{$row['latitude']}</td>".
 											"<td>{$row['longitude']}</td>".
+											"<td>{$row['actual_storage']}</td>".
+											"<td>{$row['factorial']}</td>".
 											"<td>{$row['storage']}</td>".
 											"<td>$status</td>".
 											 "<td> <button class='btn btn-info btn-rounded' onclick=\"change_status('{$temp_id}')\">Change Status</button></td>".

@@ -139,7 +139,10 @@ foreach ($warehouseData as $data) {
         $warehouse->setLatitude($lat);
         $warehouse->setLongitude($lon);
 
-        $warehouse->setStorage($data['storage'] ?? 0);
+        $storageVal = $data['storage'] ?? 0;
+        $warehouse->setActual_storage($storageVal);
+        $warehouse->setFactorial(1);
+        $warehouse->setStorage($storageVal);
         $warehouse->setUniqueid(substr(uniqid("WH_"), 0, 15));
         $warehouse->setActive($data['active'] ?? '1');
 

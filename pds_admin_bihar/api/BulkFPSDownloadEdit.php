@@ -8,8 +8,8 @@ $mapData = [
     "Model FPS/Normal FPS" => "type",
     "Latitude" => "latitude",
     "Longitude" => "longitude",
-    "Demand of Rice" => "demand",
-	"Demand of Wheat" => "demand_rice",
+    "Demand of Rice" => "demand_rice",
+	"Demand of Wheat" => "demand",
 	"Active/Not-Active" => "active"
 ];
 
